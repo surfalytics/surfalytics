@@ -23,7 +23,7 @@ jobs:
           ${{ runner.os }}-gems-
           
     - name: Install dependencies
-      run: bundle install
+      run: bundle exec rake
 
     # Standard usage
     - uses:  helaili/jekyll-action@v2
