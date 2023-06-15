@@ -18,6 +18,7 @@ GEM
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (3.23.2-x64-mingw-ucrt)
+    google-protobuf (3.23.2-x86_64-darwin)
     google-protobuf (3.23.2-x86_64-linux)
     html-pipeline (2.14.3)
       activesupport (>= 2)
@@ -65,6 +66,8 @@ GEM
     minitest (5.18.0)
     nokogiri (1.15.2-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.15.2-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -79,6 +82,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.62.1-x64-mingw-ucrt)
       google-protobuf (~> 3.21)
+    sass-embedded (1.62.1-x86_64-darwin)
+      google-protobuf (~> 3.21)
     sass-embedded (1.62.1-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
     terminal-table (3.0.2)
@@ -90,6 +95,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
