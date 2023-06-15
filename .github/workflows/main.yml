@@ -7,12 +7,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0' 
-        bundler-cache: true
-    - name: Update RubyGems
-      run: |
-        gem update --system
-    - run: bundle exec rake
+      - uses: actions/checkout@v3
+      
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+
+      - name: Update RubyGems
+        run: gem update --system
+
+      - name: Cache Ruby gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+      - run: bundle exec rake
