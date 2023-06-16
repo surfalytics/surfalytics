@@ -1,21 +1,21 @@
-{"/pages/about/": {
+{"/surfalytics-gitbook/pages/about/": {
     "title": "About",
     "keywords": "Jekyll",
-    "url": "/pages/about/",
+    "url": "/surfalytics-gitbook/pages/about/",
     "body": "This is an about page."
-  },"/pages/contact/": {
+  },"/surfalytics-gitbook/pages/contact/": {
     "title": "Contact",
     "keywords": "Jekyll",
-    "url": "/pages/contact/",
+    "url": "/surfalytics-gitbook/pages/contact/",
     "body": "This is an contact page."
-  },"/pages/faq/": {
+  },"/surfalytics-gitbook/pages/faq/": {
     "title": "Frequently Asked Questions",
     "keywords": "Jekyll",
-    "url": "/pages/faq/",
+    "url": "/surfalytics-gitbook/pages/faq/",
     "body": "This is an FAQ page."
-  },"/surfalytics/2023-06-04-Module02.html": {
+  },"/surfalytics-gitbook/surfalytics/2023-06-04-Module02.html": {
     "title": "Module 02 - Gettign started with databases and SQL?",
     "keywords": "surfalytics",
-    "url": "/surfalytics/2023-06-04-Module02.html",
+    "url": "/surfalytics-gitbook/surfalytics/2023-06-04-Module02.html",
     "body": "Let’s get acquainted with databases and understand their advantages for working with data compared to Excel/Google Sheets. We’ll practice SQL, set up a database, and load data into it. Then we’ll use Excel/Google Sheets to visualize the data. toc: enabled: true Module 2.1 Introdution long contents ….. a b c d Module 2.2 Getting started with databases long contents ….. 1 2 3 4"
   }}
