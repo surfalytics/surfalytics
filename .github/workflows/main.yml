@@ -11,7 +11,7 @@ jobs:
       
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.2.2'
 
       - name: Update RubyGems
         run: gem update --system
@@ -26,4 +26,4 @@ jobs:
 
       - run: bundle config path vendor/bundle
       - run: bundle install --jobs 4 --retry 3
-      - run: bundle exec rake
+      - run: bundle exec jekyll build
