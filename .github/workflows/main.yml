@@ -27,3 +27,15 @@ jobs:
       - run: bundle config path vendor/bundle
       - run: bundle install --jobs 4 --retry 3
       - run: bundle exec jekyll build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: jekyll
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
