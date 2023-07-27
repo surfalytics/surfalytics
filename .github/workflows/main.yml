@@ -22,9 +22,11 @@ jobs:
 
       - name: Build the site
         run: bundle exec jekyll build
-        
+          
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.JEKYLL_PAT }}
           publish_dir: ./_site
+          cname: surfalytics.com
+
