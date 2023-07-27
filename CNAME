@@ -1,2 +1,1 @@
-- name: Setup CNAME
-  run: echo "surfalytics.com" > CNAME
+surfalytics.com
