@@ -29,6 +29,6 @@ I have extensive experience in developing data communities and speaking at confe
 
 ![Alt text](https://github.com/surfalytics/surfalytics/blob/main/assets/presentation.jpeg "Talling about Cloud Analytics benefits")
 
-
+In 2019 I started free with [Roman](https://www.linkedin.com/in/roman-ponomarev-620abbb1/) project [datalearn.ru](https://datalearn.ru) where I was teaching Data Engineering and Analytics professions based in my  homre country. Around 20 000 people signup over 3 years and many people landed their 1st job worldwide. I am thankfull for the opportunity to share the knowledge that helped to transform other people lifes.
 
 All of this helps me stay at the forefront of technology and monitor where the analytics industry is heading. I am the founder of the Rock Your Data consulting firm in North America with a focus on modern cloud analytics.
