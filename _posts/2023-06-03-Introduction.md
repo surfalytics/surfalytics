@@ -24,8 +24,6 @@ Even if you have no experience with data, that won't be a hindrance. The first f
 
 The course consist from 12 modules:
 
- Translation in English:
-
 **Module 1: The Role of Analytics and Data Engineer in the Organization**
 Let's get acquainted with the subject of study. We'll find out who the Data Engineer is, what other tech roles exist, what they do, and their other titles. Most importantly, we'll understand how they help businesses be more efficient and make money. We'll examine the typical architectures of analytical solutions.
 
