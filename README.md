@@ -2,20 +2,22 @@
 layout: home
 title: Surfalytics
 permalink: /
-cover: \assets\surfalytics.jfif
+cover: \assets\surfalytics.svg
 ---
 
-Surfalytics is your online launchpad into data analytics, offering a comprehensive, hands-on curriculum that focuses on the crucial 20% of knowledge that yields 80% of results, effectively preparing you for a rewarding career globally.
+Surfalytics = Surfing + Analytics. Inspired by West Coast surfing spots and Pacific ocean vibes. Created with goal to help you start a new career in data analytics space, develop data engineering and analytics skills through coaching. It will teach you not just dry skills, but will keep your focus to deliver significant value to businesses in the analytics realm as well as help to get fair compensation for the work you're passionate about.
 
 ## The promise
 
-Our concise, intensive program, led by an expert with 14 years in the data field with prior experience in FAANG companies, is designed to jumpstart your career in data analytics. Embracing the Pareto Principle, we focus on the critical 20% of knowledge that yields 80% of results, empowering you with the most impactful skills and practical know-how.
+Our concise, intensive program, led by an expert with 14 years in the data field, is designed to jumpstart your career in data analytics. Embracing the Pareto Principle, we focus on the critical 20% of knowledge that yields 80% of results, empowering you with the most impactful skills and practical know-how.
 
-I believe in developing not just technical acumen, but also the mindset and capabilities of an effective individual contributor. As such, our curriculum covers both the foundational knowledge and cutting-edge techniques in Analytics, Business Intelligence, Data Visualization and Data Engineering, as well as soft skills such as problem-solving, effective communication, and team collaboration.
+We believe in developing not just technical acumen, but also the mindset and capabilities of an effective individual contributor. As such, our curriculum covers both the foundational knowledge and cutting-edge techniques in Analytics, Business Intelligence, Data Visualization and Data Engineering, as well as soft skills such as problem-solving, effective communication, and team collaboration.
 
 As usual, we will start from very basics to understand WHY analytics exist and how YOU as data IC can add value to the data organization.
 
-The end goal? To turn you into a successful, effective Individual Contributor in the data space and land Data Job anywhere in the world.
+The end goal? To turn you into a successful, effective Individual Contributor in the data space and land Data Job in North America or Europe. 
+
+If we get far enough, we can run surfing bootcamps on West Coast.
 
 ## Why Surfalytics
 
@@ -30,9 +32,7 @@ PS we plan to run real Surf and Data workshops in Tofino, BC where you can learn
 3. Join our Telegram Channel.
 4. Move to the Introduction page and be ready to start.
 
-## FAQ 
 
-You probably have lots of question. Let me try to answer all of them in FAQ section.
 ## License
 
 The content itself is free. If you share part of it, please refer to the source.
