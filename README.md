@@ -5,7 +5,7 @@ permalink: /
 cover: \assets\surfalytics.svg
 ---
 
-Surfalytics = Surfing + Analytics. Inspired by West Coast surfing spots and Pacific ocean vibes. Created with goal to help you start a new career in data analytics space, develop data engineering and analytics skills through coaching. It will teach you not just dry skills, but will keep your focus to deliver significant value to businesses in the analytics realm as well as help to get fair compensation for the work you're passionate about.
+Surfalytics = Surfing 🏄‍♂️ + Analytics 📊. Inspired by West Coast surfing spots 🏖️ and Pacific ocean vibes 🌊. Created with goal to help you start a new career in data analytics space, develop data engineering and analytics skills through coaching. It will teach you not just dry skills, but will keep your focus to deliver significant value to businesses in the analytics realm as well as help to get fair compensation 💰 for the work you're passionate about ❤️‍🔥.
 
 ## The promise
 
