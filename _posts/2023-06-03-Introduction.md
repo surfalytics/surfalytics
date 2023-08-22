@@ -47,15 +47,13 @@ In analytics, the center of the universe is usually the data warehouse or data p
 **Module 7: Introduction to Apache Spark**
 Apache Spark is one of the most popular tools for Data Engineers. This module is dedicated to acquainting ourselves with Apache Spark and examining its functionality. We will practice creating RDDs and Data Frames, and consider key operations and use cases.
 
-**Module 8: Creating Big Data Solutions Using Hadoop and Spark**
+**Module 8: Creating Big Data Solutions Using Hadoop**
 Hadoop is the flagship of Big Data solutions. In this module, we will tackle a problem that cannot be handled by traditional ETL/DW tools, helping you understand the difference between DW and BigData. You will clearly know why we use Hadoop. As a management tool, we will use Spark, which will already be pre-installed on Amazon Elastic Map Reduce. For the exercise, we'll utilize PySpark to read unstructured logs and extract valuable information from them.
 
-**Module 9: Introduction to the Concept of Data Lake and Its Creation Using AWS Tools**
-There are many versions about the purpose of a Data Lake and its role in the Analytical ecosystem. In this module, we will familiarize ourselves with the concept of a Data Lake, its role in the ecosystem, and look at typical architectures for building solutions using a Data Lake and/or Data Warehouse. We will use AWS products as solutions.
+**Module 9: Introduction to the Data Lake**
+There are many versions about the purpose of a Data Lake and its role in the Analytical ecosystem. In this module, we will familiarize ourselves with the concept of a Data Lake, its role in the ecosystem, and look at typical architectures for building solutions using a Data Lake. We will use AWS and Azure clouds.
 
-Certainly! Here are the summaries for the mentioned modules:
-
-**Module 10: Solving Data Streaming Tasks**
+**Module 10: Getting started with Streaming**
 This module delves deep into the challenges and solutions associated with data streaming. As data becomes more real-time and voluminous, handling continuous data streams is crucial. Participants will understand the nuances of streaming data, the importance of timely data processing, and get hands-on experience with tools and technologies that facilitate efficient data streaming.
 
 **Module 11: Machine Learning Tasks Through the Eyes of a Data Engineer**
