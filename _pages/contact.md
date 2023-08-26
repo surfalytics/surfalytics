@@ -1,5 +1,5 @@
 ---
-title: About
+title: Contact
 author: Dmitry Anoshin
 date: 2023-06-04
 category: Jekyll
