@@ -2,7 +2,7 @@
 layout: home
 title: Surfalytics
 permalink: /
-cover: \assets\surfalytics.svg
+cover: \assets\Surfalytics.svg
 ---
 
 ⚠️ _content is underdevelopment_
