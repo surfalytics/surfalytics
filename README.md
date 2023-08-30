@@ -33,6 +33,7 @@ PS: We plan to organize genuine Surf 🏄‍♀️ and Data workshops in Tofino,
 4. Navigate to the Introduction page and be ready to start.
 
 ## How Can I Help?
+
 I have been helping people secure jobs in the data space since 2011. I am very result-oriented and the success criterion is landing a job or receiving a job offer. I often use the "fake it till you make it" approach to achieve results. The journey may be challenging, but it's 100% doable, and I know many individuals who have transformed their lives, started new careers or relocated to North America, Europe, Australia, or Asia.
 
 ## License
