@@ -7,15 +7,6 @@ cover: \assets\Surfalytics.svg
 
 ⚠️ _content is underdevelopment_
 
----
-layout: home
-title: Surfalytics
-permalink: /
-cover: \assets\Surfalytics.svg
----
-
-⚠️ _content is underdevelopment_
-
 Surfalytics = Surfing 🏄‍♂️ + Analytics 📊. Inspired by West Coast surfing spots 🏖️ and Pacific Ocean vibes 🌊. This platform was created to assist you in starting a new career in the data analytics space and developing data engineering and analytics skills through coaching. It will teach you not just the basic skills, but also help you maintain your focus to deliver significant value to businesses in the analytics realm, and assist in acquiring fair compensation 💰 for the work you're passionate about ❤️‍🔥.
 
 ## The Promise
