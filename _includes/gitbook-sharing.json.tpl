@@ -1,13 +1,14 @@
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"],
-                "facebook": true,
+                "facebook": false,
                 "google": false,
                 "github": true,
-                "github_link": "https://github.com",
+                "github_link": "https://github.com/surfalytics/",
                 "telegram": true,
-                "telegram_link": "https://t.me",
+                "telegram_link": "https://t.me/rockyourdata",
                 "instapaper": false,
-                "twitter": true,
+                "twitter": false,
                 "vk": false,
-                "weibo": false
+                "linkedin": true,
+                "linkedin_link": "https://linkedin.com/company/surfalytics/"
+
             },
