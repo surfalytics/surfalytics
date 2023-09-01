@@ -64,14 +64,6 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 window.open('https://www.linkedin.com/company/surfalytics/');
             }
         },
-          'telegram': {
-            'label': 'telegram',
-            'icon': 'fa fa-paper-plane',
-            'onClick': function(e) {
-                e.preventDefault();
-                window.open('https://t.me/rockyourdata');
-            }
-        },
     };
 
 
