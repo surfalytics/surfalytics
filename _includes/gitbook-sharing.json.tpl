@@ -7,7 +7,7 @@
                 "twitter": false,
                 "vk": false,
                 "linkedin": true,
-                "linkedin_link": "https://linkedin.com/company/surfalytics/"
+                "linkedin_link": "https://linkedin.com/company/surfalytics/",
                 "telegram": true,
                 "telegram_link": "https://t.me/rockyourdata"
             },

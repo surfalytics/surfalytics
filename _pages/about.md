@@ -27,7 +27,7 @@ Since 2021 I am teaching Cloud Computing Fundamentals course at the [University 
 
 I have extensive experience in developing data communities and speaking at conferences, meetups, and user groups. I was leading Snowflake, Tableau user groups in Vancouver and presented myself across the North America at local meetups or biggest data conferences. In 2017 I started a canadina consulting company Rock Your Data with goal to help companies to  adopt cloud analytics and migrate to the cloud. But I realised the my primary passion is building and teaching.
 
-![Alt text](https://github.com/surfalytics/surfalytics/blob/main/assets/presentation.jpeg "Talling about Cloud Analytics benefits")
+![Telling about Cloud Analytics benefits](/assets/presentation.jpeg "Telling about Cloud Analytics benefits")
 
 In 2019 I started free with [Roman](https://www.linkedin.com/in/roman-ponomarev-620abbb1/) project [datalearn.ru](https://datalearn.ru) where I was teaching Data Engineering and Analytics professions based in my  homre country. Around 20 000 people signup over 3 years and many people landed their 1st job worldwide. I am thankfull for the opportunity to share the knowledge that helped to transform other people lifes.
 
