@@ -29,7 +29,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-paper-plane',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('https://t.me/rockyourdata');
+                window.open('https://t.me/surfalytics');
             }
         },
         'google': {
