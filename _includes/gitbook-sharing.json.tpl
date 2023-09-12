@@ -9,5 +9,5 @@
                 "linkedin": true,
                 "linkedin_link": "https://linkedin.com/company/surfalytics/",
                 "telegram": true,
-                "telegram_link": "https://t.me/rockyourdata"
+                "telegram_link": "https://t.me/surfalytics"
             },
