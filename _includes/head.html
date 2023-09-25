@@ -66,4 +66,18 @@
         {%- include application-insights.html -%}
     {%- endif -%}
 
+    {%- if site.tracker.google_analytics -%}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-FT018TBY84');
+    </script>
+    <!-- End Google Analytics -->
+{%- endif -%}
+
 {%- endif -%}
