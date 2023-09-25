@@ -20,6 +20,18 @@
     <meta name="author" content="{{ site.author | escape }}">
 {%- endif -%}
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-FT018TBY84');
+    </script>
+    <!-- End Google Analytics -->
+
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
 <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
@@ -65,19 +77,5 @@
         <!-- application insights -->
         {%- include application-insights.html -%}
     {%- endif -%}
-
-    {%- if site.tracker.google_analytics -%}
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            window.dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-FT018TBY84');
-    </script>
-    <!-- End Google Analytics -->
-{%- endif -%}
 
 {%- endif -%}
