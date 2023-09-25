@@ -64,3 +64,8 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+# Google Analytics set up
+site:
+  tracker:
+    google_analytics: true
