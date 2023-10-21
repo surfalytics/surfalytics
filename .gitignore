@@ -1,3 +1,7 @@
 _site/
 _draft/
 .jekyll-cache/
+.vscode
+.vscode/
+.gitignore/
+.gitignore
