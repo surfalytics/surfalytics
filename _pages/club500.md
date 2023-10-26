@@ -7,15 +7,15 @@ layout: post
 cover: \assets\surf2.svg
 ---
 
-## What is club 500
+**What is club 500**
 
 By "500," I mean an annual gross total compensation of 500,000 CAD in Canada or 500,000 USD in the US. Achieving this figure is a commendable goal, especially in the data industry. To reach this milestone, one needs the right skills, several years of experience, and a clear objective to improve one's life and conditions.
 
-## Why 500?
+**Why 500?**
 
 Somehow, 500k has become the de facto benchmark for FAANG companies, and every analyst, data scientist, and engineer dreams of this salary. Some of them achieved this easily, while others chose a different path.
 
-## What is the goal of the club 500?
+**What is the goal of the club 500?**
 
 I truly believe that to become the best version of ourselves, we should surround ourselves with smart, motivated, and ambitious individuals. The club provides an opportunity to connect with people who have reached significant milestones (and, indeed, paid a lot in taxes). More importantly, it offers a chance to engage with intelligent individuals on various topics:
 
@@ -31,7 +31,7 @@ To earn more, we must allow ourselves to desire more and be willing to spend mor
 
 Let's collaborate and assist one another in becoming better versions of ourselves! The guiding principle is clear: we are committed to constant professional and financial growth.
 
-## How to join club 500?
+**How to join club 500?**
 
 Have you surpassed the 500k threshold? Let's connect and elevate each other!
 
