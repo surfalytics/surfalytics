@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 
-**What is the target audience?**
+## What is the target audience?
 
 My key audience is people:
 
@@ -17,7 +17,7 @@ My primary audience comprises:
 3. Veteran engineers who feel they've hit a professional ceiling, are experiencing burnout, and are unsure about the next steps. (Having been there myself, I offer guidance on navigating this phase and achieving more.)
 4. Professionals looking to relocate from Asia, Eastern Europe, or South America to North America, Australia, or Europe. These individuals often need to rapidly familiarize themselves with new technologies, tools, and resume standards to align with market expectations. Furthermore, they may seek guidance on salary benchmarks and cost-of-living adjustments in their new locations.
 
-**What are the key products of Surfalytis?**
+## What are the key products of Surfalytis?
 
 Firstly, I've distilled my 14 years of experience, transitioning from an analyst to a staff data engineer, into a comprehensive course. This will be divided into 12 modules:
 

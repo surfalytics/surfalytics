@@ -7,14 +7,29 @@ layout: post
 cover: \assets\surf2.svg
 ---
 
-Surfalytics will offer you multiple options:
-- First of all a solid course that will give you enough knowledge to get rights skills and land the job with 0 knowledge
-- Option to join a community of people who are learning and interviewing
-- Option to gain join private classes
-- Option to leverage mentorship and coachin sessions to boost the result
-- Or you can just check if this is for you.
+The core offering of Surfalytics is a 12-module course that contains everything you need to know about data engineering, business intelligence, and analytics. 
 
-Let's talk more about the main course:
+The course includes both theoretical and practical lessons. They are organized in order of complexity, starting from the simplest and progressing to more advanced topics. Each new piece of information will build upon existing knowledge. 
+
+The course also provides numerous links to external materials, training, and books. The primary goal is to give you foundational knowledge and empower you to succeed in your data career.
+
+Let's discuss the requirements and the course further:
+
+**Requirements**
+
+First and foremost, you need to determine the requirements for comfortable data work when taking the course. I can identify several key components:
+
+- Internet access 😀
+- Preferably a screen size of 15 inches or larger
+- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag
+- Operating systems: Windows and Mac. Linux will also work
+- To access AWS, you might need to enter a credit card number during registration (not before the 4th module).
+- Telegram - where you can join our chat
+- A GitHub account (we'll explain in the first homework how to set up GitHub and its use)
+- English proficiency at a reading level
+- Ability to use Google and ChatGPT 😀
+- Presence on social media to share about the course 😀
+
 
 **Getting Started with Analytics (Data) Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more. 
 
@@ -58,18 +73,5 @@ Data Engineering and Machine Learning are interlinked in many modern analytical 
 **Module 12: Best Practices of a Data Engineer**
 A comprehensive guide to becoming an exemplary data engineer, this module touches upon both the technical and non-technical aspects of the role. From employing DevOps, CI/CD, and Infrastructure as Code (IaC) in data operations to developing soft skills for effective communication and teamwork, this module rounds off with a discussion on potential career trajectories and growth opportunities in the field of data engineering.
 
-# Requirements
 
-First and foremost, you need to determine the requirements for comfortable data work when taking the course. I can identify several key components:
-
-- Internet access 😀
-- Preferably a screen size of 15 inches or larger;
-- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag;
-- Operating systems: Windows and Mac. Linux will also work;
-- To access AWS, you might need to enter a credit card number during registration (not before the 4th module).
-- Telegram - where you can join our chat;
-- A GitHub account (we'll explain in the first homework how to set up GitHub and its use);
-- English proficiency at a reading level;
-- Ability to use Google 😀
-- Presence on social media to share about the course 😀
 
