@@ -7,9 +7,9 @@ layout: post
 cover: \assets\surf2.svg
 ---
 
-The core offering of Surfalytics is a 12-module course that contains everything you need to know about data engineering, business intelligence, and analytics. 
+The core offering of Surfalytics is a 12-module course that contains everything you need to know about data engineering, business intelligence, and analytics.  
 
-The course includes both theoretical and practical lessons. They are organized in order of complexity, starting from the simplest and progressing to more advanced topics. Each new piece of information will build upon existing knowledge. 
+The course includes both theoretical and practical lessons. They are organized in order of complexity, starting from the simplest and progressing to more advanced topics. Each new piece of information will build upon existing knowledge.
 
 The course also provides numerous links to external materials, training, and books. The primary goal is to give you foundational knowledge and empower you to succeed in your data career.
 
@@ -30,8 +30,7 @@ First and foremost, you need to determine the requirements for comfortable data 
 - Ability to use Google and ChatGPT 😀
 - Presence on social media to share about the course 😀
 
-
-**Getting Started with Analytics (Data) Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more. 
+**Getting Started with Analytics (Data) Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more.
 
 Even if you have no experience with data, that won't be a hindrance. The first few modules will focus on the basics of analytics and classic tasks: Business Intelligence (reporting, visualization, data warehousing, SQL, Excel, data integration). This will be enough for roles like BI developer, data analyst, etc. Starting from the 5th-6th module, we will delve directly into the work of a Data Engineer, building on the knowledge obtained in the initial stages.
 
@@ -72,6 +71,3 @@ Data Engineering and Machine Learning are interlinked in many modern analytical 
 
 **Module 12: Best Practices of a Data Engineer**
 A comprehensive guide to becoming an exemplary data engineer, this module touches upon both the technical and non-technical aspects of the role. From employing DevOps, CI/CD, and Infrastructure as Code (IaC) in data operations to developing soft skills for effective communication and teamwork, this module rounds off with a discussion on potential career trajectories and growth opportunities in the field of data engineering.
-
-
-
