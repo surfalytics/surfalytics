@@ -13,8 +13,6 @@ One of the biggest challenges is the number of courses, training materials and t
 
 Surfalytics core focus is to help you succeed on your journey towards a data career. It doesn't matter where you are now and what you know. It is more important what your goal is. And if this is a career in data space and you're planning to become a Data Engineer, BI Engineer, Data/Product/Marketing Analyst, Visualisation Engineer then you are in the right place. We will help you to access your current state, develop your learning plan and will do frequent check-ins to keep you on track.
 
-The are multiple options available for you:
-
 # Membership
 
 Membership gives you access to Surfalytics resources, access to Discord chat, monthly projects on Data Engineering and Business Intelligence, and the option to ask any questions any time, as well as constant support during your journey and career plan.

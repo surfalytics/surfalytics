@@ -9,7 +9,9 @@ cover: \assets\surf2.svg
 
 **What is club 500**
 
-By "500," I mean an annual gross total compensation of 500,000 CAD in Canada or 500,000 USD in the US. Achieving this figure is a commendable goal, especially in the data industry. To reach this milestone, one needs the right skills, several years of experience, and a clear objective to improve one's life and conditions.
+By "500", I'm referring to an annual gross compensation of 500,000 CAD in Canada or 500,000 USD in the United States when I mention '500.' Such a target is admirable, particularly within the data sector. To achieve this level of income, one must possess the necessary skills, accumulate several years of experience, and have a definitive aim to enhance their life and circumstances.
+
+Ultimately, it all boils down to one's mindset. We should aim for significant achievements and take pride in our professional contributions. Our dedication is for our personal growth and the wellbeing of our families. As high achievers and dedicated professionals, we consistently deliver exceptional results.
 
 **Why 500?**
 
