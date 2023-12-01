@@ -23,8 +23,6 @@ Finally, Surfalytics is not just a data school. It is a results-driven community
 
 ## Surfalytics Audience
 
-The primary audience:
-
 The primary audience for our services includes a diverse range of individuals at different stages in their data industry careers:
 
 - Newcomers to the data field with no prior experience, who are aiming to secure a job quickly with a competitive salary. Regardless of background, we focus on their end goal and the effort they are willing to put in, striving to make the impossible possible.
