@@ -21,6 +21,13 @@ The price is [$25/month](https://buy.stripe.com/3csaGq3aMauXc5aaET) or [$200/yea
 
 Some of the most active Discord channels:
 
+- resume review
+- job searching and resume tips
+- leetcode crack
+- share your success or progress
+- data engineering projects
+- data analytics projects
+
 Some of the recent projects:
 
 - Just enough CLI and Shell for data roles

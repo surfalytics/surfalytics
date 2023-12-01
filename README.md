@@ -96,7 +96,7 @@ Let's connect on [Linkedin](https://www.linkedin.com/in/dmitryanoshin/).
 ## How to Get Started
 
 1. Define your goal. If you feel that a career as a successful data professional is for you, then you are in the right place.
-2. Join community or get an hourly consultation. You can find more information under the [services]()
+2. Join community or get an hourly consultation. You can find more information under the [services](https://surfalytics.com/pages/services/)
 
 ## License
 
