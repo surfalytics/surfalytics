@@ -1,0 +1,24 @@
+            <!-- Membership modal -->
+
+              <section class="membership-modal modal-content" id="membershipModal">
+                <div class="close-modal" onclick="toggleMembership(); toggleMenu()">
+                  <iconify-icon icon="material-symbols-light:close"></iconify-icon>
+                </div>
+                <div class="text-block-modal">
+                  <h2>More opportunities with Premium membership</h2>
+                  <p>Get access to study materials, career growth support, help with your job search and many other sweet perks. And most important, every month, we will launch two dedicated projects that will upskill you and enhance your portfolio.</p>
+                  <p>Prices are in CAD</p>  
+                </div>
+                <div class="membership-block-mobile">
+                  <button class="membership-card-mobile monthly-membership default" onclick="selectMembership('monthly')">
+                    <h2>$20</h2>
+                    <p class="centered">per month</p>
+                  </button>
+                  <button class="membership-card-mobile yearly-membership default" onclick="selectMembership('yearly')">
+                    <div class="sale-tag">25% off</div>
+                    <h2>$180</h2>
+                    <p class="centered">per year</p>
+                  </button>
+                  <button class="cta-filled" id="proceedButtonMembership" disabled onclick="proceedToCheckoutMembership()">Proceed to checkout</button>
+                </div>
+            </section>

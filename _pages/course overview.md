@@ -2,7 +2,7 @@
 layout: home
 author: Dmitry Anoshin
 category: Jekyll
-title: About the course
+title: Course overview
 cover: \assets\Surfalytics.svg
 ---
 

@@ -7,14 +7,18 @@
             <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">
-            {% if page.url == "/index.html" or page.url == "/" %}
+            <!-- {% if page.url == "/index.html" or page.url == "/" %}
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
-            {% endif %}
+            {% endif %} -->
+            <li class="chapter">
                 <a href="{{site.baseurl}}/">
                     {{ site.title | escape }}
                 </a>
+            </li>
+
+
             </li>
 
             <li class="divider"></li>
