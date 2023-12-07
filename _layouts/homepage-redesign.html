@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+
+      <!-- data from head.html -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="{{site.description}}">
+
+      <meta charset="utf-8">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
+
+      <meta name="HandheldFriendly" content="true"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+      <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
+      <!-- End data from head.html -->
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="/assets/gitbook/homepage-redesign.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-FT018TBY84');
+    </script>
+    <!-- End Google Analytics -->
+    </head>
+
+    <body>
+
+        <header>
+
+          <!-- Navigation menu -->
+            <nav id="nav">
+                <a href="/">
+                  <img class="logo" src="/assets/surfalytics-logo.svg">
+                </a>
+                
+                <div class="menu-icon" onclick="toggleMenu()">
+                  <iconify-icon icon="iconamoon:menu-burger-horizontal-duotone"></iconify-icon>
+                </div>
+
+                <div class="navbar-nav">
+                  <div class="navbar-links">
+                    <a href="/pages/about/">About</a>
+                    <a href="/pages/faq/">FAQ</a>
+                    <a href="/pages/services/">Services</a>
+                    <a href="/pages/testimonials/">Testimonials</a>
+                    <a href="/pages/club500/">Club 500</a>
+                    <a href="/surfalytics/2023-06-040-Introduction.html">Free Course</a>
+                  </div>
+                  <button class="cta-filled" onclick="toggleMembership(); toggleMenu(); centerModal()">Become a member</button>
+                </div>
+
+            </nav>
+              <!-- Menu mobile -->
+              <div class="menu-modal" id="menuModal">
+                <div class="menu-content">
+                    <div class="close-modal" onclick="toggleMenu()">
+                      <iconify-icon icon="material-symbols-light:close"></iconify-icon>
+                    </div>
+                    <a href="/pages/about/">About</a>
+                    <a href="/pages/faq/">FAQ</a>
+                    <a href="/pages/services/">Services</a>
+                    <a href="/pages/testimonials/">Testimonials</a>
+                    <a href="/pages/club500/">Club 500</a>
+                    <a href="/surfalytics/2023-06-040-Introduction.html">Free Course</a>
+                    <button class="cta-filled" onclick="toggleMembership()">Become a member</button>
+                </div>
+              </div> 
+        </header>
+
+        <main>
+          <div id="overlay"></div>
+            {%- include membership.html -%}
+            {%- include services.html -%}
+
+            <section class="content">
+              <!-- Hero -->
+              <div class="hero">
+                <h1>Elevate your data engineering career to the next level</h1> 
+                <p>Start a new career in the data analytics space, and develop data engineering and analytics skills through intensive data analytics program.
+                </p>  
+                <button class="cta-filled mobile-hidden-btn" onclick="window.location.href='/surfalytics/2023-06-04-Introduction.html'">
+                    Free Analytics and Data Engineering Course
+                  </button>
+                  <button class="cta-filled desktop-hidden" onclick="toggleMembership(); toggleMenu()">Become a member</button>
+                <button class="cta-outlined" onclick="toggleServices(); toggleMenu(); centerModal()">1:1 Coaching session</button>
+              </div>
+              
+              <!-- Companies logos -->
+
+                <h2 class="margin-top">Land your dream role at companies like</h2>
+
+                {%- include homepage-logos.html -%}
+
+              <!-- Program info -->
+              <div class="two-column-grid">
+                <h3>
+                  Our concise, intensive program, led by an expert with 14 years in the data field, is designed to jumpstart your career in data analytics. 
+                </h3>
+                <div class="text-block grid-fixed">
+                  <p>
+                    Embracing the Pareto Principle, we focus on the critical 20% of knowledge that yields 80% of results, empowering you with the most impactful skills and practical know-how.
+                  </p> 
+                  <p>
+                    We believe in developing not just technical acumen, but also the mindset and capabilities of an effective individual contributor. 
+                  </p>
+                  <p>
+                    The end goal? To turn you into a successful, effective Individual Contributor in the data space and land a Data Job in North America, Europe, Australia, or Asia 🚀.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Target audience -->
+              <h2 class="margin-top-mobile">Who is this program for?</h2>
+              <div class="two-column-grid">
+                <div class="text-block">
+                  <div class="text-block-small">
+                    <h5>Newcomers to the data field with no prior experience</h5>
+                    <p>Who aim to secure a job quickly with a competitive salary.</p>  
+                  </div>
+                  <div class="text-block-small">
+                    <h5>Analysts and developers</h5>
+                    <p>Eager to enhance their skills and progress toward a data engineer role.</p>
+                  </div>
+                  <div class="text-block-small">
+                    <h5>Seasoned engineers who feel  like they have hit a professional ceiling</h5>
+                    <p>Are experiencing burnout, and are unsure about the next steps. (Having been there myself, I offer guidance on navigating this phase and achieving more.)
+                    </p>
+                    </div>
+                  <div class="text-block-small">
+                    <h5>Professionals looking to relocate</h5>
+                    <p>From Asia, Eastern Europe, or South America to North America, Australia, or Europe. These individuals often need to rapidly familiarize themselves with new technologies, tools, and resume standards to align with market expectations. 
+                    </p>
+                    </div>
+                  <div class="text-block-small">
+                    <h5>Master’s and MBA students</h5>
+                    <p>Ready to enter the market but unsure where to start or what skills they are missing.</p>
+                  </div>
+                </div>
+                <img class="mobile-hidden" src="/assets/images/ta-img.svg">
+              </div>
+
+              <!-- Free course promo -->
+              <div class="two-column-grid flex-center">
+                <img src="/assets/images/iPad Pro 2020.svg">
+                <div class="text-block grid-fixed">
+                  <h3>12 modules to get you onboard in Data Analysis and Engineering field</h3>
+                  <p> Our curriculum covers both the foundational knowledge and cutting-edge techniques in Analytics, Business Intelligence, Data Visualization, and Data Engineering, as well as soft skills such as problem-solving, effective communication, and team collaboration.
+                  </p>
+                  <button class="cta-filled" onclick="window.location.href='/surfalytics/2023-06-04-Introduction.html'">Start my Free Course</button>  
+                </div>
+              </div>
+
+              <!-- Subscribe -->
+              <div class="subscribe">
+                <h2 class="margin-top">Get notified about course updates and receive latest data career insights</h2>
+                  <!-- Embedded Substack API -->
+                  <div id="custom-substack-embed"></div>
+                  <script>
+                    window.CustomSubstackWidget = {
+                      substackUrl: "blog.surfalytics.com",
+                      placeholder: "example@gmail.com",
+                      buttonText: "Subscribe",
+                      theme: "purple"
+                    };
+                  </script>
+                  <script src="https://substackapi.com/widget.js" async></script>
+                </div>
+    
+            </section>
+
+
+        </main>
+
+        <script>
+
+          var gitbook = gitbook || [];
+          gitbook.push(function() {
+              gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+          });
+
+        </script>
+
+        <!-- JavaScript -->
+        <script>
+
+          function toggleMenu() {
+              var menuModal = document.getElementById('menuModal');
+              menuModal.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
+              var nav = document.getElementById('nav')
+              nav.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
+          }
+
+          function toggleMembership() {
+            const membershipModal = document.getElementById('membershipModal');
+            membershipModal.style.display = (membershipModal.style.display === 'none' || membershipModal.style.display === '') ? 'flex' : 'none';
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = (overlay.style.display === 'none' || overlay.style.display === '') ? 'block' : 'none';         
+          }
+
+          function toggleServices() {
+            const servicesModal = document.getElementById('servicesModal');
+            servicesModal.style.display = (servicesModal.style.display === 'none' || servicesModal.style.display === '') ? 'flex' : 'none';
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = (overlay.style.display === 'none' || overlay.style.display === '') ? 'block' : 'none';         
+
+          }
+
+          //MEMBERSHIP modal interaction
+
+          let selectedMembership = null;
+          const proceedButtonMembership = document.getElementById('proceedButtonMembership');
+
+          function selectMembership(type) {
+            const selectedMembershipElement = document.querySelector(`.${selectedMembership}-membership`);
+
+            if (selectedMembershipElement) {
+              selectedMembershipElement.classList.remove('selected');
+              }
+            // Update the selected membership type
+            selectedMembership = type;
+
+            // Visual indication of the selected option
+            const newSelectedMembershipElement = document.querySelector(`.${type}-membership`);
+            if (newSelectedMembershipElement) {
+              newSelectedMembershipElement.classList.add('selected');
+            }
+            // Enable the "Proceed to Checkout" button
+            proceedButtonMembership.removeAttribute('disabled');
+          }
+
+          // Center the modal on the screen
+          function centerModal() {
+            var modalContent = document.querySelector(".modal-content");
+            modalContent.style.marginTop = ((window.innerHeight - modalContent.clientHeight) / 2) + "px";
+          }
+          window.addEventListener("resize", centerModal);
+
+          //SERVICES modal interaction
+
+          let selectedService = null;
+          const proceedButtonServices = document.getElementById('proceedButtonServices');
+
+          function selectService(type) {
+            const selectedServiceEl = document.querySelector(`.${selectedService}`);
+
+            if (selectedServiceEl) {
+              selectedServiceEl.classList.remove('selected');
+              }
+            // Update the selected service type
+            selectedService = type;
+
+            // Visual indication of the selected option
+            const newSelectedServiceEl = document.querySelector(`.${type}`);
+            if (newSelectedServiceEl) {
+              newSelectedServiceEl.classList.add('selected');
+            }
+            // Enable the "Proceed to Checkout" button
+            proceedButtonServices.removeAttribute('disabled');
+          }
+
+
+          function proceedToCheckoutMembership() {
+            if (selectedMembership === 'monthly') {
+              window.location.href = 'https://buy.stripe.com/3csaGq3aMauXc5aaET';
+            } else if (selectedMembership === 'yearly') {
+              
+              window.location.href = 'https://buy.stripe.com/14k4i2fXy7iL1qw7sI';
+            } else {
+              alert('Please choose a membership option before proceeding to checkout.');
+            }
+          }
+
+          function proceedToCheckoutServices() {
+            if (selectedService === 'hourly-mentorship') {
+              window.location.href = 'https://buy.stripe.com/eVa8yieTufPh0msaER';
+            } else if (selectedService === 'career-trajectory') {
+              window.location.href = 'https://buy.stripe.com/6oEbKu7r232v4CI14f';   
+            } else {
+              window.location.href = 'https://buy.stripe.com/eVadSCbHi46z7OUfZc';
+            }
+          }
+        </script>
+
+      {%- include footer.html -%}
+
+      <!-- Footer -->
+      <footer>
+
+        <!-- Socials -->
+        <ul class="socials">
+          <li>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/surfalytics/">
+              <iconify-icon icon="fa:instagram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <!-- Telegram -->
+            <a href="https://t.me/surfalytics">
+              <iconify-icon icon="icon-park-outline:telegram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/company/surfalytics/">
+              <iconify-icon icon="ri:linkedin-fill" style="color: #eff0f4;" width="35"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <!-- Tiktok -->
+            <a href="#">
+              <iconify-icon icon="ic:baseline-tiktok" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <!-- Github -->
+            <a href="https://github.com/surfalytics/surfalytics">
+              <iconify-icon icon="mdi:github" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+            </a>
+          </li>
+        </ul>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <!-- Copyright info -->
+        <p style="text-align: center; font-size: smaller; width: fit-content;">Copyright 2023 by Dmitry Anoshin. <br> Designed and developed by Lala Jafarova.</p>
+      </footer>
+    </body>
+</html>

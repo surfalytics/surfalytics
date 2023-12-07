@@ -1,0 +1,38 @@
+            <!-- Services modal -->
+            <section class="services-modal modal-content" id="servicesModal">
+                <div class="close-modal" onclick="toggleServices(); toggleMenu()">
+                  <iconify-icon icon="material-symbols-light:close"></iconify-icon>
+                </div>
+                <div class="services-block-mobile">
+                  <span class="span-services">
+                    <h2 class="left-aligned">Coaching services</h2>
+                    <p>Prices are in CAD</p>  
+                  </span>
+                  <button class="services-card-mobile hourly-mentorship default" onclick="selectService('hourly-mentorship')">
+                    <h1 class="left-aligned">$200</h1>
+                    <div class="inline">
+                      <h4>Hourly mentorship</h4>
+                      <p>Talk over your case, data career path, migration to North America, strategy to scale total compensation and many more.</p>  
+                    </div>
+                  </button>
+                  <button class="services-card-mobile career-trajectory default" onclick="selectService('career-trajectory')">
+                    <div class="sale-tag popular">most popular</div>
+                    <h1 class="left-aligned">$500</h1>
+                    <div class="inline">
+                      <h4>Adjusting Career Trajectory</h4>
+                      <p>Learn from the experienced engineer who was there and can help you to choose the optimal career path depending on your needs - total compensation, company tier, work/life balance, career growth. We will start from evaluating your current situation and make sure you will get the best possible course of action for success. This will include two hourly consultations and tailored learning plan for achieving result.</p>  
+                    </div>
+                  </button>
+                  <button class="services-card-mobile endtoend-coaching default" onclick="selectService('endtoend-coaching')">
+                    <div class="inline">
+                      <h1 class="left-aligned">$999</h1>
+                      <p>+30% of your first net salary</p>  
+                    </div>
+                    <div class="inline">
+                      <h4>End to end coaching</h4>
+                      <p>From your current circumstances towards the offer. Even if you don’t have prior experience, it doesn’t matter. All we need is consistency, motivation, and hard work. This package include the 5 consultations, your assessment, tailored study plan and Surfalytics community membership.</p>  
+                    </div>
+                  </button>
+                  <button class="cta-filled" id="proceedButtonServices" disabled onclick="proceedToCheckoutServices()">Proceed to checkout</button>  
+                </div>
+            </section>
