@@ -224,8 +224,7 @@ nav {
     padding: 20px 16px;
     justify-content: space-between;
     align-items: center;
-    background: rgba(18, 20, 26, 0.01);
-    backdrop-filter: blur(12.5px);
+    background: var(--palette-1-bg-primary, #14132E);
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -308,7 +307,7 @@ nav a {
 
 /* Mobile burger menu */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -594,6 +593,11 @@ img {
 
 main {
     padding-top: 8em;
+}
+
+nav {
+    background: rgba(18, 20, 26, 0.01);
+    backdrop-filter: blur(12.5px);
 }
 
 h1 {
