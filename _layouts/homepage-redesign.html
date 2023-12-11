@@ -45,9 +45,15 @@
     <body>
 
         <header>
+          <!-- Subsrcibe -->
+          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar">
+            <div class="container subscribe-banner">
+            💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development in the data industry and join over 4000 data professionals worldwide!
+            </div>
+          </a>
 
           <!-- Navigation menu -->
-            <nav id="nav">
+            <nav class="scrolling-el" id="nav">
                 <a href="/">
                   <img class="logo" src="/assets/surfalytics-logo.svg">
                 </a>
@@ -155,7 +161,7 @@
                     <p>Ready to enter the market but unsure where to start or what skills they are missing.</p>
                   </div>
                 </div>
-                <img class="mobile-hidden" src="/assets/images/ta-img.svg">
+                <img class="mobile-hidden" src="/assets/images/ta-surf.jpg">
               </div>
 
               <!-- Free course promo -->
@@ -223,6 +229,21 @@
             overlay.style.display = (overlay.style.display === 'none' || overlay.style.display === '') ? 'block' : 'none';         
 
           }
+
+          // SCROLLING NAVIGATION
+            document.addEventListener('DOMContentLoaded', function() {
+            var scrollingEl = document.querySelector('.scrolling-el');
+
+            // Function to handle scroll event
+            function handleScroll() {
+              // Change the padding based on the scroll position
+              var scrollPosition = window.scrollY;
+              scrollingEl.style.paddingTop = (scrollPosition >= 55) ? '20px' : (90 - scrollPosition / 2) + 'px';
+            }
+
+            // Listen for the scroll event
+            window.addEventListener('scroll', handleScroll);
+          });
 
           //MEMBERSHIP modal interaction
 
@@ -327,7 +348,7 @@
           </li>
           <li>
             <!-- Tiktok -->
-            <a href="#">
+            <a href="https://www.tiktok.com/@surfalytics">
               <iconify-icon icon="ic:baseline-tiktok" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
             </a>
           </li>
@@ -340,7 +361,7 @@
         </ul>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!-- Copyright info -->
-        <p style="text-align: center; font-size: smaller; width: fit-content;">Copyright 2023 by Dmitry Anoshin. <br> Designed and developed by Lala Jafarova.</p>
+        <p style="text-align: center; font-size: smaller; width: fit-content;">Copyright 2023 by Dmitry Anoshin. <br> Designed and developed by <a class="mylink" href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
       </footer>
     </body>
 </html>

@@ -34,3 +34,7 @@ Thirdly, it's not just about technical know-how; it's also about the lifestyle a
 Fourthly, I am in the process of designing bootcamps for specific roles: BI engineer, Data Analyst, and Data Engineer, all rooted in the core program I've developed.
 
 Lastly, one of my personal dreams is to host Surfing + Data Bootcamps. Imagine starting the day catching waves and then transitioning into a data-driven afternoon. The journey of learning and earning should be enjoyable in every sense.
+
+## Membership cancellation and support
+For cancelling your paid membership subscription or other inquiries, please email [support@surfalytics.com](mailto:support@surfalytics.com).
+
