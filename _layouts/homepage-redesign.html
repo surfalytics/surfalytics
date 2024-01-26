@@ -23,7 +23,8 @@
       <!-- CSS -->
       <link rel="stylesheet" href="/assets/gitbook/homepage-redesign.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-      
+      <link rel="stylesheet" href="path-to-iconify-font.css">
+
       <!-- Google fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,15 +46,23 @@
     <body>
 
         <header>
-          <!-- Subsrcibe -->
-          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar">
+          <!-- Subscribe banner -->
+          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar desktop-banner">
             <div class="container subscribe-banner">
             💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development in the data industry and join over 4000 data professionals worldwide!
             </div>
           </a>
 
+          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar mobile-banner">
+            <div class="container subscribe-banner">
+            💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development!
+            </div>
+          </a>
+
+
           <!-- Navigation menu -->
             <nav class="scrolling-el" id="nav">
+              <div class="container">
                 <a href="/">
                   <img class="logo" src="/assets/surfalytics-logo.svg">
                 </a>
@@ -65,15 +74,15 @@
                 <div class="navbar-nav">
                   <div class="navbar-links">
                     <a href="/pages/about/">About</a>
-                    <a href="/pages/faq/">FAQ</a>
-                    <a href="/pages/services/">Services</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#services">Services</a>
                     <a href="/pages/testimonials/">Testimonials</a>
                     <a href="/pages/club500/">Club 500</a>
                     <a href="/surfalytics/2023-06-04-Introduction.html">Free Course</a>
                   </div>
-                  <button class="cta-filled" onclick="toggleMembership(); toggleMenu(); centerModal()">Become a member</button>
+                  <a  href="#membership" class="cta-filled">Become a member</a>
                 </div>
-
+              </div>
             </nav>
               <!-- Menu mobile -->
               <div class="menu-modal" id="menuModal">
@@ -82,116 +91,262 @@
                       <iconify-icon icon="material-symbols-light:close"></iconify-icon>
                     </div>
                     <a href="/pages/about/">About</a>
-                    <a href="/pages/faq/">FAQ</a>
-                    <a href="/pages/services/">Services</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#services">Services</a>
                     <a href="/pages/testimonials/">Testimonials</a>
                     <a href="/pages/club500/">Club 500</a>
                     <a href="/surfalytics/2023-06-04-Introduction.html">Free Course</a>
-                    <button class="cta-filled" onclick="toggleMembership()">Become a member</button>
+                    <a href="#membership" class="cta-filled">Become a member</a>
                 </div>
               </div> 
         </header>
 
         <main>
-          <div id="overlay"></div>
-            {%- include membership.html -%}
-            {%- include services.html -%}
-
-            <section class="content">
-              <!-- Hero -->
-              <div class="hero">
-                <h1>Elevate your data engineering career to the next level</h1> 
-                <p>Start a new career in the data analytics space, and develop data engineering and analytics skills through intensive data analytics program.
-                </p>  
-                <button class="cta-filled mobile-hidden-btn" onclick="window.location.href='/surfalytics/2023-06-04-Introduction.html'">
-                    Free Analytics and Data Engineering Course
-                  </button>
-                  <button class="cta-filled desktop-hidden" onclick="toggleMembership(); toggleMenu()">Become a member</button>
-                <button class="cta-outlined" onclick="toggleServices(); toggleMenu(); centerModal()">1:1 Coaching session</button>
-              </div>
-              
-              <!-- Companies logos -->
-
-                <h2 class="margin-top">Land your dream data role at companies like</h2>
-
-                {%- include homepage-logos.html -%}
-
-              <!-- Program info -->
-              <div class="two-column-grid">
-                <h3>
-                  Our concise, intensive program, led by an expert with 14 years in the data field, is designed to jumpstart your career in data analytics. 
-                </h3>
-                <div class="text-block grid-fixed">
-                  <p>
-                    Embracing the Pareto Principle, we focus on the critical 20% of knowledge that yields 80% of results, empowering you with the most impactful skills and practical know-how.
-                  </p> 
-                  <p>
-                    We believe in developing not just technical acumen, but also the mindset and capabilities of an effective individual contributor. 
-                  </p>
-                  <p>
-                    The end goal? To turn you into a successful, effective Individual Contributor in the data space and land a Data Job in North America, Europe, Australia, or Asia 🚀.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Target audience -->
-              <h2 class="margin-top-mobile">Who is this program for?</h2>
-              <div class="two-column-grid">
-                <div class="text-block">
-                  <div class="text-block-small">
-                    <h5>Newcomers to the data field with no prior experience</h5>
-                    <p>Who aim to secure a job quickly with a competitive salary.</p>  
-                  </div>
-                  <div class="text-block-small">
-                    <h5>Analysts and developers</h5>
-                    <p>Eager to enhance their skills and progress toward a data engineer role.</p>
-                  </div>
-                  <div class="text-block-small">
-                    <h5>Seasoned engineers who feel  like they have hit a professional ceiling</h5>
-                    <p>Are experiencing burnout, and are unsure about the next steps. (Having been there myself, I offer guidance on navigating this phase and achieving more.)
-                    </p>
-                    </div>
-                  <div class="text-block-small">
-                    <h5>Professionals looking to relocate</h5>
-                    <p>From Asia, Eastern Europe, or South America to North America, Australia, or Europe. These individuals often need to rapidly familiarize themselves with new technologies, tools, and resume standards to align with market expectations. 
-                    </p>
-                    </div>
-                  <div class="text-block-small">
-                    <h5>Master’s and MBA students</h5>
-                    <p>Ready to enter the market but unsure where to start or what skills they are missing.</p>
-                  </div>
-                </div>
-                <img class="mobile-hidden" src="/assets/images/ta-surf.jpg">
-              </div>
-
-              <!-- Free course promo -->
-              <div class="two-column-grid flex-center">
-                <img src="/assets/images/iPad Pro 2020.svg">
-                <div class="text-block grid-fixed">
-                  <h3>12 modules to get you onboard in Data Analysis and Engineering field</h3>
-                  <p> Our curriculum covers both the foundational knowledge and cutting-edge techniques in Analytics, Business Intelligence, Data Visualization, and Data Engineering, as well as soft skills such as problem-solving, effective communication, and team collaboration.
-                  </p>
-                  <button class="cta-filled" onclick="window.location.href='/surfalytics/2023-06-04-Introduction.html'">Start my Free Course</button>  
-                </div>
-              </div>
-
-              <!-- Subscribe -->
-              <div class="subscribe">
-                <h2 class="margin-top">Get notified about course updates and receive latest data career insights</h2>
-                  <!-- Embedded Substack API -->
-                  <div id="custom-substack-embed"></div>
-                  <script>
-                    window.CustomSubstackWidget = {
-                      substackUrl: "blog.surfalytics.com",
-                      placeholder: "example@gmail.com",
-                      buttonText: "Subscribe",
-                      theme: "purple"
-                    };
-                  </script>
-                  <script src="https://substackapi.com/widget.js" async></script>
-                </div>
-    
+            <!-- Hero -->
+            <section class="hero">
+              <h1>Elevate your <span>data career</span> to the next level with a 
+                <span>strong community</span> and 
+                expert <span class="light-blue">career mentorship</span>.</h1> 
             </section>
+
+              <!-- Surfalytics goal -->
+            <section class="goal-section">
+              <div class="surfalytics-focus">
+                <h4>Surfalytics core focus is to support you on a data career journey.</h4>
+                <div class="two-col">
+                  <p>Regardless of your level of experience and competency, we will help you assess your current state and develop a tailored learning plan and will do frequent check-ins to keep you on track.</p>
+                  <p>If your goal is a career in data space and you’re planning to become a Data Engineer, BI Engineer, Data/Product/Marketing Analyst, or Visualisation Engineer then you are in the right place.</p>
+                </div>  
+              </div>
+              <h4>We help with the following:</h4>
+              <div class="tab-block-mobile">
+                <details>
+                  <summary>Landing your first data job</summary>
+                  <br>
+                  <p>Searching for your first data job or going through the job search process again can feel daunting.</p>
+                  <p>With a mentor you will:</p>
+                  <ul>
+                    <li>gain a deeper understanding of the data recruiting landscape in North America</li>
+                    <li>strengthen your resume and make it tailored to the position you are applying for</li>
+                    <li>practise mock interviews</li>
+                    <li>receive guidance on how to negotiate job offers</li>
+                  </ul>
+                  <p>In our community you will build a competitive projects portfolio and develop your professional network.</p>
+                </details>
+                <details>
+                  <summary>Levelling up your career</summary>
+                  <br>
+                  <p>Moving from a middle-level role to a senior position can be a challenging journey, but it becomes significantly more achievable with the guidance of a skilled career coach.</p>
+                  <p>Don't let the obstacles in your way hold you back from achieving your full potential. </p>
+                  <p>A data career mentor will work with you to create a tailored career roadmap. They will assess your skills, strengths, and weaknesses, and then craft a step-by-step plan that aligns with your goals.</p>
+                </details>
+                <details>
+                  <summary>Pivoting from non-technical Analyst role to Data Engineer role</summary>
+                  <br>
+                  <p>Are you currently in a non-technical analyst role but dream of stepping into the dynamic field of data engineering?</p>
+                  <p>Get personalized guidance from a data mentor in bridging the gap from a non-technical background to a data engineer role.</p>
+                  <ul>
+                    <li>Assessment and goal setting</li>
+                    <li>Learning Path</li>
+                    <li>Skill development and portfolio building</li>
+                    <li>Networking opportunities</li>
+                    <li>Ongoing support</li>
+                  </ul>
+                </details>
+              </div>
+              <div class="tab-block">
+
+                <div class="tab">
+                  <button class="tablinks" onclick="openTab(event,'Job')" id="defaultOpen">
+                    Landing your first data job
+                    <div class="icon">
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                    </div>
+                  </button>
+                  <button class="tablinks" onclick="openTab(event, 'Career')">
+                    Levelling up your career
+                    <div class="icon">
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                    </div>
+                  </button>
+                  <button class="tablinks" onclick="openTab(event, 'Pivot')">
+                    Pivoting from non-technical <br> Analyst role to Data Engineer role
+                    <div class="icon">
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                    </div>
+                  </button>
+                </div>
+
+                <div id="Job" class="tabcontent">
+                  <p>Searching for your first data job or going through the job search process again can feel daunting.</p>
+                  <p>With a mentor you will:</p>
+                  <ul>
+                    <li>gain a deeper understanding of the data recruiting landscape in North America</li>
+                    <li>strengthen your resume and make it tailored to the position you are applying for</li>
+                    <li>practise mock interviews</li>
+                    <li>receive guidance on how to negotiate job offers</li>
+                  </ul>
+                  <p>In our community you will build a competitive projects portfolio and develop your professional network.</p>
+                </div> 
+                <div id="Career" class="tabcontent">
+                  <p>Moving from a middle-level role to a senior position can be a challenging journey, but it becomes significantly more achievable with the guidance of a skilled career coach.</p>
+                  <p>Don't let the obstacles in your way hold you back from achieving your full potential. </p>
+                  <p>A data career mentor will work with you to create a tailored career roadmap. They will assess your skills, strengths, and weaknesses, and then craft a step-by-step plan that aligns with your goals.</p>
+                </div>
+                <div id="Pivot" class="tabcontent">
+                  <p>Are you currently in a non-technical analyst role but dream of stepping into the dynamic field of data engineering?</p>
+                  <p>Get personalized guidance from a data mentor in bridging the gap from a non-technical background to a data engineer role.</p>
+                  <ul>
+                    <li>Assessment and goal setting</li>
+                    <li>Learning Path</li>
+                    <li>Skill development and portfolio building</li>
+                    <li>Networking opportunities</li>
+                    <li>Ongoing support</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            
+            <!-- Community membership -->
+            <section id="membership" class="membership two-col">
+              <div class="col-left">
+                <h2>We firmly believe that community is the most powerful method of learning and growth.</h1>
+                <p>Membership gives you access to Surfalytics resources, Discord chat, monthly projects on Data Engineering and Business Intelligence, and the option to ask any questions any time, as well as constant support during your journey and career plan.</p>
+              </div>
+              <div class="service-card card-interactive card-color">
+                <div class="card-header">
+                  <p>Membership Pricing</p>
+                  <h2>$25 CAD / month</h2>
+                  <div class="txt-flex">
+                    <p>or $200 CAD / year</p>
+                    <p class="tag"><span>(34% off)</span></p>
+                  </div>                  
+                </div>
+                <ul class="membership-ul">
+                  <li>Get access to study materials</li>
+                  <li>Build Data Engineering and Analytics projects portfolio</li>
+                  <li>Continuous career journey support, including resume reviews, career planning, interview mocks and Q&A sessions</li>
+                  <li>LeetCode crack</li>
+                  <li>Access to Discord community</li>
+                  <li>Professional network</li>
+                </ul>
+                <div class="btn-block">
+                  <a href="https://buy.stripe.com/3csaGq3aMauXc5aaET" target="_blank">
+                    <button class="cta-filled">Select Monthly</button>
+                  </a>
+                  <a href="https://buy.stripe.com/14k4i2fXy7iL1qw7sI">
+                    <button class="cta-filled secondary">Select Yearly</button>
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <!-- Services pricing -->
+            <section id="services" class="services-pricing">
+              <h4>Services Pricing</h4>
+              <div class="cards-block">
+                <div class="card-color card-interactive service-card">
+                  <div class="card-header">                  
+                    <p>Hourly mentorship</p>
+                    <h2>$200 CAD</h2>
+                  </div>
+                  <div class="card-description">
+                    <p>1 hour session, that you can use to:</p>
+                    <ul>
+                      <li>Talk over your case and ask relevant questions</li>
+                      <li>Get a strategy to scale total compensation </li>
+                      <li>Ask questions about immigration to North America and many more</li>
+                    </ul>
+                    <p>If you don’t know where to start, this session is right for you.</p>  
+                  </div>
+                  <a href="https://buy.stripe.com/eVa8yieTufPh0msaER">
+                    <button class="cta-filled">Select Service</button>
+                  </a>
+                </div>
+                <div class="card-color card-interactive service-card">
+                  <div class="card-header">                  
+                    <p>Adjusting Career Trajectory</p>
+                    <h2>$500 CAD</h2>
+                    <p class="tag"><span>most popular</span></p>
+                  </div>
+                  <div class="card-description">
+                    <p>Learn from the experienced engineer who was there and can help you to choose the optimal career path depending on your needs - total compensation, company tier, work/life balance, career growth. </p>
+                    <p>This package includes two 1-hour sessions and a tailored learning plan to achieve result.</p>
+                    <ul>
+                      <li>Assessment of your current situation and goal setting</li>
+                      <li>Learning path to succeed</li>
+                    </ul>  
+                  </div>
+                  <a href="https://buy.stripe.com/6oEbKu7r232v4CI14f">
+                    <button class="cta-filled">Select Service</button>
+                  </a>
+                </div>
+                <div class="card-color card-interactive service-card">
+                  <div class="card-header">                  
+                    <p>End-to-end Coaching</p>
+                    <h2>$999 CAD</h2>
+                    <p>+30% of your first net salary</p>
+                  </div>
+                  <div class="card-description">
+                    <p>From your current circumstances towards the offer. Even if you don’t have prior experience, it doesn’t matter. All we need is consistency, motivation, and hard work.</p>
+                    <p>This package includes the 5 consultations, your assessment, tailored study plan and Surfalytics community membership.</p>  
+                  </div>
+                  <a href="https://buy.stripe.com/eVadSCbHi46z7OUfZc">
+                    <button class="cta-filled">Select Service</button>
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <!-- Course promo -->
+            <section class="course-promo two-col">
+              <div class="col-left">
+                <h3>Foundational knowledge, 
+                  Cutting-edge technologies <br> and Soft Skills</h3>
+                <p>All covered in the 12 modules of the course. Check the details in the curriculum.</p>
+                <a class="link" href="/surfalytics/2023-06-04-Introduction.html">Start my free course</a>
+              </div>
+              <div class="drop-down">
+                {%- include markdown-files/course-curriculum.md -%}
+              </div>
+            </section>
+              
+            <!-- About the founder -->
+            <section class="founder-card card-color">
+              <div class="two-col">
+                <img class="founder-photo" src="./assets/images/founder.png" alt="founder Dmitry Anoshin photo" />
+                <div class="founder-text-block">
+                  <h5>Meet the founder</h5>
+                  <h2>Dmitry Anoshin</h2>
+                  <ul class="founder-ul">
+                    <li>14 years in data analytics, 8 years in MAANG (Amazon, Microsoft)</li>
+                    <li>Founder of Rock Your Data - data analytics consulting company</li>
+                    <li>Author of numerous books on Data Analytics</li>
+                    <li>Teaching Cloud Computing Fundamentals at the University of Victoria since 2021</li>
+                  </ul>
+                  <ul class="logos">
+                    <li><img src="assets/images/microsoft-azure.svg" /></li>
+                    <li><img src="assets/images/amazon.svg" /></li>
+                    <li><img src="assets/images/shield-horz-white-1.svg" /></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="founder-text-block">
+                <p>I have always been involved in various user groups and meetups. During my time at Amazon, I managed one of the largest Tableau User Groups (ATUG), boasting over 2,500 active members. Simultaneously, I took over the BI team’s user group, which connected more than 150 analytics teams worldwide. This led to exceptionally effective knowledge sharing, problem resolution, and job searching within Amazon.</p>
+                <p>Upon joining Microsoft, I promptly initiated a new community there. Additionally, since 2018, I have been leading the largest data engineering community in Russia, with 18,000 active members. </p>
+                <p>I understand the power of community and advocate for this method of education and coaching.</p>
+                <p>At Surfalytics, I created a membership subscription that provides access to a Discord chat, monthly projects in Data Engineering and Business Intelligence, the opportunity to ask questions at any time, and continuous support throughout your journey, including career planning.</p>
+                <p>The primary goal of our community is to elevate each other on social media, assist in interview preparation, engage in mock interviews, tackle LeetCode tasks, review interviews, and share weekly progress.</p>  
+              </div>
+            </section>
+
+            <!-- FAQ -->
+            <section id="faq" class="faq">
+              <h4>Frequently Asked Questions</h4>
+              {%- include markdown-files/faq.md -%}
+
+            </section>
+          
 
 
         </main>
@@ -208,26 +363,29 @@
         <!-- JavaScript -->
         <script>
 
+          // Tab section
+          document.getElementById("defaultOpen").click();
+
+          function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+
+          // Menu modal
           function toggleMenu() {
               var menuModal = document.getElementById('menuModal');
               menuModal.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
               var nav = document.getElementById('nav')
               nav.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
-          }
-
-          function toggleMembership() {
-            const membershipModal = document.getElementById('membershipModal');
-            membershipModal.style.display = (membershipModal.style.display === 'none' || membershipModal.style.display === '') ? 'flex' : 'none';
-            var overlay = document.getElementById("overlay");
-            overlay.style.display = (overlay.style.display === 'none' || overlay.style.display === '') ? 'block' : 'none';         
-          }
-
-          function toggleServices() {
-            const servicesModal = document.getElementById('servicesModal');
-            servicesModal.style.display = (servicesModal.style.display === 'none' || servicesModal.style.display === '') ? 'flex' : 'none';
-            var overlay = document.getElementById("overlay");
-            overlay.style.display = (overlay.style.display === 'none' || overlay.style.display === '') ? 'block' : 'none';         
-
           }
 
           // SCROLLING NAVIGATION
@@ -240,128 +398,76 @@
               var scrollPosition = window.scrollY;
               scrollingEl.style.paddingTop = (scrollPosition >= 55) ? '20px' : (90 - scrollPosition / 2) + 'px';
             }
-
-            // Listen for the scroll event
             window.addEventListener('scroll', handleScroll);
           });
 
-          //MEMBERSHIP modal interaction
-
-          let selectedMembership = null;
-          const proceedButtonMembership = document.getElementById('proceedButtonMembership');
-
-          function selectMembership(type) {
-            const selectedMembershipElement = document.querySelector(`.${selectedMembership}-membership`);
-
-            if (selectedMembershipElement) {
-              selectedMembershipElement.classList.remove('selected');
-              }
-            // Update the selected membership type
-            selectedMembership = type;
-
-            // Visual indication of the selected option
-            const newSelectedMembershipElement = document.querySelector(`.${type}-membership`);
-            if (newSelectedMembershipElement) {
-              newSelectedMembershipElement.classList.add('selected');
-            }
-            // Enable the "Proceed to Checkout" button
-            proceedButtonMembership.removeAttribute('disabled');
-          }
-
-          // Center the modal on the screen
-          function centerModal() {
-            var modalContent = document.querySelector(".modal-content");
-            modalContent.style.marginTop = ((window.innerHeight - modalContent.clientHeight) / 2) + "px";
-          }
-          window.addEventListener("resize", centerModal);
-
-          //SERVICES modal interaction
-
-          let selectedService = null;
-          const proceedButtonServices = document.getElementById('proceedButtonServices');
-
-          function selectService(type) {
-            const selectedServiceEl = document.querySelector(`.${selectedService}`);
-
-            if (selectedServiceEl) {
-              selectedServiceEl.classList.remove('selected');
-              }
-            // Update the selected service type
-            selectedService = type;
-
-            // Visual indication of the selected option
-            const newSelectedServiceEl = document.querySelector(`.${type}`);
-            if (newSelectedServiceEl) {
-              newSelectedServiceEl.classList.add('selected');
-            }
-            // Enable the "Proceed to Checkout" button
-            proceedButtonServices.removeAttribute('disabled');
-          }
-
-
-          function proceedToCheckoutMembership() {
-            if (selectedMembership === 'monthly') {
-              window.location.href = 'https://buy.stripe.com/3csaGq3aMauXc5aaET';
-            } else if (selectedMembership === 'yearly') {
-              
-              window.location.href = 'https://buy.stripe.com/14k4i2fXy7iL1qw7sI';
-            } else {
-              alert('Please choose a membership option before proceeding to checkout.');
-            }
-          }
-
-          function proceedToCheckoutServices() {
-            if (selectedService === 'hourly-mentorship') {
-              window.location.href = 'https://buy.stripe.com/eVa8yieTufPh0msaER';
-            } else if (selectedService === 'career-trajectory') {
-              window.location.href = 'https://buy.stripe.com/6oEbKu7r232v4CI14f';   
-            } else {
-              window.location.href = 'https://buy.stripe.com/eVadSCbHi46z7OUfZc';
-            }
-          }
         </script>
 
       {%- include footer.html -%}
 
       <!-- Footer -->
-      <footer>
 
-        <!-- Socials -->
-        <ul class="socials">
-          <li>
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/surfalytics/">
-              <iconify-icon icon="fa:instagram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
-            </a>
-          </li>
-          <li>
-            <!-- Telegram -->
-            <a href="https://t.me/surfalytics">
-              <iconify-icon icon="icon-park-outline:telegram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
-            </a>
-          </li>
-          <li>
-            <!-- Linkedin -->
-            <a href="https://www.linkedin.com/company/surfalytics/">
-              <iconify-icon icon="ri:linkedin-fill" style="color: #eff0f4;" width="35"></iconify-icon>
-            </a>
-          </li>
-          <li>
-            <!-- Tiktok -->
-            <a href="https://www.tiktok.com/@surfalytics">
-              <iconify-icon icon="ic:baseline-tiktok" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
-            </a>
-          </li>
-          <li>
-            <!-- Github -->
-            <a href="https://github.com/surfalytics/surfalytics">
-              <iconify-icon icon="mdi:github" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
-            </a>
-          </li>
-        </ul>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-        <!-- Copyright info -->
-        <p style="text-align: center; font-size: smaller; width: fit-content;">Copyright 2023 by Dmitry Anoshin. <br> Designed and developed by <a class="mylink" href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
+      <footer>              
+        
+        <!-- Subscribe -->
+        <div class="container two-col">
+          <div class="subscribe">
+            <h4>Subscribe to our Substack and gain access to latest data career insights</h4>
+  
+              <!-- Embedded Substack API -->
+              <div id="custom-substack-embed"></div>
+              <script>
+                window.CustomSubstackWidget = {
+                  substackUrl: "blog.surfalytics.com",
+                  placeholder: "example@gmail.com",
+                  buttonText: "Subscribe",
+                  theme: "purple"
+                };
+              </script>
+              <script src="https://substackapi.com/widget.js" async></script>
+            </div>
+  
+  
+          <!-- Socials -->
+          <div>
+            <ul class="socials">
+              <li>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/surfalytics/">
+                  <iconify-icon icon="fa:instagram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Telegram -->
+                <a href="https://t.me/surfalytics">
+                  <iconify-icon icon="icon-park-outline:telegram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/company/surfalytics/">
+                  <iconify-icon icon="ri:linkedin-fill" style="color: #eff0f4;" width="35"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Tiktok -->
+                <a href="https://www.tiktok.com/@surfalytics">
+                  <iconify-icon icon="ic:baseline-tiktok" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Github -->
+                <a href="https://github.com/surfalytics/surfalytics">
+                  <iconify-icon icon="mdi:github" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+            <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>    
+          </div>
+  
+        </div>
+         <!-- Copyright info -->
+        <p>Copyright 2024 by Dmitry Anoshin. Designed and developed by <a class="link" href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
       </footer>
     </body>
 </html>
