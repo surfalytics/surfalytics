@@ -13,7 +13,9 @@ body, main {
 }
 
 section {
-    max-width: 343px;
+    padding: 0 16px;
+    width: 100vw;
+    max-width: 740px;
 }
 
 .goal-section {
@@ -40,7 +42,7 @@ footer {
     background-position: right bottom;
     background-repeat: no-repeat;
     padding: 2.5em 0;
-    margin: 1em;
+    margin: 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,8 +139,8 @@ nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-self: center;
-    gap: 120px;
+    align-self: stretch;
+    width: 100vw;
 }
 
 .subscribe-banner {
@@ -312,7 +314,6 @@ footer > .two-col {
 .faq {
     display: flex;
     flex-direction: column;
-    width: 1200px;
     gap: 20px;
 }
 
@@ -627,7 +628,7 @@ nav {
 }
 
 nav .container {
-    gap: 200px;
+    width: 100vw;
 }
 
 .scrolling-el {
@@ -744,13 +745,6 @@ footer > .two-col {
 
 .drop-down {
     width: 580px;
-}
-
-.faq {
-    display: flex;
-    flex-direction: column;
-    width: 1200px;
-    gap: 20px;
 }
 
 summary {
