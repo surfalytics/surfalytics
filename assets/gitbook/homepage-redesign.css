@@ -526,6 +526,11 @@ p span:before {
     background-color: #2b72b5;
 }
 
+.crossed-price {
+    text-decoration: line-through;
+    color: #61636b;
+}
+
 /* Logos and socials list */
 
 ul {
