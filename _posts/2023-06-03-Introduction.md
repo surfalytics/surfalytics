@@ -28,13 +28,26 @@ First and foremost, you need to determine the requirements for comfortable data 
 - Ability to use Google and ChatGPT 😀
 - Presence on social media to share about the course 😀
 
-**Getting Started with Analytics (Data) Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more.
+**Getting Started with Analytics and Data Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more.
 
 Even if you have no experience with data, that won't be a hindrance. The first few modules will focus on the basics of analytics and classic tasks: Business Intelligence (reporting, visualization, data warehousing, SQL, Excel, data integration). This will be enough for roles like BI developer, data analyst, etc. Starting from the 5th-6th module, we will delve directly into the work of a Data Engineer, building on the knowledge obtained in the initial stages.
 
 The course consists of 13 modules:
 
 **Module 0: The Role of Analytics and Data Engineering in the Organization**
+
+This module will set you up for success in your data career 🚀. You will learn about the proper setup of your workplace 🖥️ and the first steps to take before diving into analytics and data engineering 📊.
+
+The objectives of this module are:
+
+Ensure you have a good working machine that is performant for data use cases and convenient for work and study 🖥️.
+Understand what an Integrated Development Environment (IDE) is and get one. If you've never used one, we'll start with Visual Studio Code 📝.
+Know what the Command Line Interface (CLI) is and master basic commands to navigate your computer and modify/create files 📂.
+Learn about version control systems like git and set up your own GitHub account to save all your work, potentially using it as a future portfolio for your data projects 🌐.
+Understand what a container is, create a simple Docker container, and become familiar with Docker terminology 🐳.
+Overall, you should become comfortable with "engineering" concepts used in all companies. You'll be able to browse the organization's code repository without being overwhelmed by terms and files like .pre-commit.yaml, .dockerignore, understand what code linting is, how to ensure code quality, and why Code Review is beneficial 🛠️.
+
+If you don't grasp everything after the first attempt, don't worry—it took me a long time too, as no one covered this topic for me in the past. This is a gentle introduction, and I bet you'll benefit from this knowledge and skills 💡.
 
 [Go to Moodul 0](https://github.com/surfalytics/surfalytics/blob/main/_posts/2023-06-04-Module00.md)
 
