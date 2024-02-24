@@ -36,6 +36,8 @@ The course consists of 13 modules:
 
 **Module 0: The Role of Analytics and Data Engineering in the Organization**
 
+[Go to Moodul 0](https://github.com/surfalytics/surfalytics/blob/main/_posts/2023-06-04-Module00.md)
+
 **Module 1: The Role of Analytics and Data Engineering in the Organization**
 Let's get acquainted with the subject of study. We'll find out who the Data Engineer is, what other tech roles exist, what they do, and their other titles. Most importantly, we'll understand how they help businesses be more efficient and make money. We'll examine the typical architectures of analytical solutions.
 
