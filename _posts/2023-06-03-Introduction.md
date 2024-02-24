@@ -7,7 +7,7 @@ layout: post
 cover: \assets\surf2.svg
 ---
 
-The core offering of Surfalytics is a 12-module course that contains everything you need to know about data engineering, business intelligence, and analytics.  
+The core offering of Surfalytics is a 13-module course that contains everything you need to know about data engineering, business intelligence, and analytics.  
 
 The course includes both theoretical and practical lessons. They are organized in order of complexity, starting from the simplest and progressing to more advanced topics. Each new piece of information will build upon existing knowledge.
 
@@ -21,12 +21,10 @@ First and foremost, you need to determine the requirements for comfortable data 
 
 - Internet access 😀
 - Preferably a screen size of 15 inches or larger
-- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag
-- Operating systems: Windows and Mac. Linux will also work
-- To access AWS, you might need to enter a credit card number during registration (not before the 4th module).
-- Telegram - where you can join our chat
-- A GitHub account (we'll explain in the first homework how to set up GitHub and its use)
-- English proficiency at a reading level
+- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag. No worries, Module 0 will cover the laptops question.
+- Operating systems: Windows and Mac. Linux will also work. The best option is MacOS.
+- To access AWS/Azure/GCP, you might need to enter a credit card number during registration (not before the 4th module).
+- A GitHub account. It will be covered in the Module 0.
 - Ability to use Google and ChatGPT 😀
 - Presence on social media to share about the course 😀
 
@@ -34,7 +32,9 @@ First and foremost, you need to determine the requirements for comfortable data 
 
 Even if you have no experience with data, that won't be a hindrance. The first few modules will focus on the basics of analytics and classic tasks: Business Intelligence (reporting, visualization, data warehousing, SQL, Excel, data integration). This will be enough for roles like BI developer, data analyst, etc. Starting from the 5th-6th module, we will delve directly into the work of a Data Engineer, building on the knowledge obtained in the initial stages.
 
-The course consists of 12 modules:
+The course consists of 13 modules:
+
+**Module 0: The Role of Analytics and Data Engineering in the Organization**
 
 **Module 1: The Role of Analytics and Data Engineering in the Organization**
 Let's get acquainted with the subject of study. We'll find out who the Data Engineer is, what other tech roles exist, what they do, and their other titles. Most importantly, we'll understand how they help businesses be more efficient and make money. We'll examine the typical architectures of analytical solutions.
