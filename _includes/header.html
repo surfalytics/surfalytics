@@ -1,0 +1,63 @@
+<header>
+    <!-- Subscribe banner -->
+    <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar desktop-banner">
+      <div class="container subscribe-banner">
+      💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development in the data industry and join over 4000 data professionals worldwide!
+      </div>
+    </a>
+
+    <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar mobile-banner">
+      <div class="container subscribe-banner">
+      💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development!
+      </div>
+    </a>
+
+
+    <!-- Navigation menu -->
+      <nav class="scrolling-el" id="nav">
+        <div class="container">
+          <a href="/">
+            <img class="logo" src="/assets/surfalytics-logo.svg">
+          </a>
+          
+          <div class="menu-icon" onclick="toggleMenu()">
+            <iconify-icon icon="iconamoon:menu-burger-horizontal-duotone"></iconify-icon>
+          </div>
+
+          <div class="navbar-nav">
+            <div class="navbar-links">
+              <a href="/pages/about/">About</a>
+              <a href="#services">Services</a>
+              <a href="/pages/club500/">Club500</a>
+              <a href="/surfalytics/2023-06-04-Introduction.html">Course</a>
+              <div class="dropdown">
+                <div class="popover-toggle" aria-controls="dropdown-list-1" aria-haspopup="'menu" aria-expanded="false" role="button" tabindex="0">
+                  <a>Career Tracks ▾</a>
+                  <div class="popover-content" id="popover-content" aria-hidden="true">
+                    <a href="/pages/data-analyst/">Data Analyst</a>
+                    <a href="/pages/analytics-engineer/">Analytics Engineer</a>
+                    <a href="/pages/data-engineer/">Data Engineer</a>
+                    <a href="/pages/bi-developer/">BI Developer</a>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <a  href="#membership" class="cta-filled">Become a member</a>
+          </div>
+        </div>
+      </nav>
+        <!-- Menu mobile -->
+        <div class="menu-modal" id="menuModal">
+          <div class="menu-content">
+              <div class="close-modal" onclick="toggleMenu()">
+                <iconify-icon icon="material-symbols-light:close"></iconify-icon>
+              </div>
+              <a href="/pages/about/">About</a>
+              <a href="#services">Services</a>
+              <a href="/pages/testimonials/">Career Tracks</a>
+              <a href="/pages/club500/">Club500</a>
+              <a href="/surfalytics/2023-06-04-Introduction.html">Course</a>
+              <a href="#membership" class="cta-filled">Become a member</a>
+          </div>
+        </div> 
+  </header>

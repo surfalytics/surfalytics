@@ -21,14 +21,14 @@
       <!-- End data from head.html -->
 
       <!-- CSS -->
-      <link rel="stylesheet" href="./assets/gitbook/homepage-redesign.css">
+      <link rel="stylesheet" href="./assets/gitbook/homepage.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
       <link rel="stylesheet" href="path-to-iconify-font.css">
 
       <!-- Google fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
      <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
@@ -45,80 +45,31 @@
 
     <body>
 
-        <header>
-          <!-- Subscribe banner -->
-          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar desktop-banner">
-            <div class="container subscribe-banner">
-            💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development in the data industry and join over 4000 data professionals worldwide!
-            </div>
-          </a>
+      {%- include header.html -%}
 
-          <a href="https://blog.surfalytics.com/" target="_blank" class="notification-bar mobile-banner">
-            <div class="container subscribe-banner">
-            💌 Subscribe to the free newsletter about Data Engineering, Analytics and career development!
-            </div>
-          </a>
-
-
-          <!-- Navigation menu -->
-            <nav class="scrolling-el" id="nav">
-              <div class="container">
-                <a href="/">
-                  <img class="logo" src="/assets/surfalytics-logo.svg">
-                </a>
-                
-                <div class="menu-icon" onclick="toggleMenu()">
-                  <iconify-icon icon="iconamoon:menu-burger-horizontal-duotone"></iconify-icon>
-                </div>
-
-                <div class="navbar-nav">
-                  <div class="navbar-links">
-                    <a href="/pages/about/">About</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="#services">Services</a>
-                    <a href="/pages/testimonials/">Testimonials</a>
-                    <a href="/pages/club500/">Club 500</a>
-                    <a href="/surfalytics/2023-06-04-Introduction.html">Free Course</a>
-                  </div>
-                  <a  href="#membership" class="cta-filled">Become a member</a>
-                </div>
-              </div>
-            </nav>
-              <!-- Menu mobile -->
-              <div class="menu-modal" id="menuModal">
-                <div class="menu-content">
-                    <div class="close-modal" onclick="toggleMenu()">
-                      <iconify-icon icon="material-symbols-light:close"></iconify-icon>
-                    </div>
-                    <a href="/pages/about/">About</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="#services">Services</a>
-                    <a href="/pages/testimonials/">Testimonials</a>
-                    <a href="/pages/club500/">Club 500</a>
-                    <a href="/surfalytics/2023-06-04-Introduction.html">Free Course</a>
-                    <a href="#membership" class="cta-filled">Become a member</a>
-                </div>
-              </div> 
-        </header>
-
-        <main>
+      <main>
             <!-- Hero -->
             <section class="hero">
-              <h1>Elevate your <span>data career</span> to the next level with a 
-                <span>strong community</span> and 
-                expert <span class="light-blue">career mentorship</span>.</h1> 
+              <div class="two-col hero">
+                <div class="hero">
+                  <div class="h-row">
+                    <h1>Learn and grow</h1>
+                  </div>
+                  <div class="h-row">
+                    <h1 id="profession">as <span id="changingProfession">Data Engineer</span></h1>
+                   </div>
+                  <p>Join the most engaging data community in North America.</p>
+                  <a href="#membership">
+                    <button class="cta-filled">Become a member</button>
+                  </a>  
+                </div> 
+                <img src="/assets/images/unsplash_QckxruozjRg.png"/>
+              </div>            
             </section>
 
               <!-- Surfalytics goal -->
             <section class="goal-section">
-              <div class="surfalytics-focus">
-                <h4>Surfalytics core focus is to support you on a data career journey.</h4>
-                <div class="two-col">
-                  <p>Regardless of your level of experience and competency, we will help you assess your current state and develop a tailored learning plan and will do frequent check-ins to keep you on track.</p>
-                  <p>If your goal is a career in data space and you’re planning to become a Data Engineer, BI Engineer, Data/Product/Marketing Analyst, or Visualisation Engineer then you are in the right place.</p>
-                </div>  
-              </div>
-              <h4>We help with the following:</h4>
+              <h4>Surfalytics community helps you with following:</h4>
               <div class="tab-block-mobile">
                 <details>
                   <summary>Landing your first data job</summary>
@@ -160,19 +111,19 @@
                   <button class="tablinks" onclick="openTab(event,'Job')" id="defaultOpen">
                     Landing your first data job
                     <div class="icon">
-                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #2B3673;" width="44"></iconify-icon>
                     </div>
                   </button>
                   <button class="tablinks" onclick="openTab(event, 'Career')">
                     Levelling up your career
                     <div class="icon">
-                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #2B3673;" width="44"></iconify-icon>
                     </div>
                   </button>
                   <button class="tablinks" onclick="openTab(event, 'Pivot')">
                     Pivoting from non-technical <br> Analyst role to Data Engineer role
                     <div class="icon">
-                      <iconify-icon icon="solar:arrow-right-linear" style="color: #eff0f4;" width="44"></iconify-icon>
+                      <iconify-icon icon="solar:arrow-right-linear" style="color: #2B3673;" width="44"></iconify-icon>
                     </div>
                   </button>
                 </div>
@@ -223,10 +174,10 @@
                   </div>                  
                 </div>
                 <ul class="membership-ul">
-                  <li>Get access to study materials</li>
+                  <li>AMA (Ask Me anything) about jobs and career progress</li>
                   <li>Build Data Engineering and Analytics projects portfolio</li>
                   <li>Continuous career journey support, including resume reviews, career planning, interview mocks and Q&A sessions</li>
-                  <li>LeetCode crack</li>
+                  <li>LeetCode workshops, SQL and Data Mock Interviews</li>
                   <li>Access to Discord community</li>
                   <li>Professional network</li>
                 </ul>
@@ -240,6 +191,19 @@
                 </div>
               </div>
             </section>
+
+
+            <!-- Course promo -->
+            <section class="course-promo two-col">
+              <div class="col-left">
+                <p>Data Analytics Course</p>
+                <h2>All-in-one, accessible way to learn analytics</h2>
+              </div>
+              <div class="drop-down">
+                {%- include markdown-files/course-curriculum.md -%}
+              </div>
+            </section>
+
 
             <!-- Services pricing -->
             <section id="services" class="services-pricing">
@@ -267,7 +231,7 @@
                   <div class="card-header">                  
                     <p>Adjusting Career Trajectory</p>
                     <h2>$500</h2>
-                    <p class="tag"><span>most popular</span></p>
+                    <p class="tag">most popular</p>
                   </div>
                   <div class="card-description">
                     <p>Learn from the experienced engineer who was there and can help you to choose the optimal career path depending on your needs - total compensation, company tier, work/life balance, career growth. </p>
@@ -298,24 +262,13 @@
               </div>
             </section>
 
-            <!-- Course promo -->
-            <section class="course-promo two-col">
-              <div class="col-left">
-                <h3>Foundational knowledge, 
-                  Cutting-edge technologies <br> and Soft Skills</h3>
-                <p>All covered in the 12 modules of the course. Check the details in the curriculum.</p>
-                <a class="link" href="/surfalytics/2023-06-04-Introduction.html">Start my free course</a>
-              </div>
-              <div class="drop-down">
-                {%- include markdown-files/course-curriculum.md -%}
-              </div>
-            </section>
+
               
             <!-- About the founder -->
-            <section class="founder-card card-color">
+            <section class="founder-card">
               <div class="two-col">
                 <img class="founder-photo" src="./assets/images/founder.png" alt="founder Dmitry Anoshin photo" />
-                <div class="founder-text-block">
+                <div class="founder-text-block card-color">
                   <h5>Meet the founder</h5>
                   <h2>Dmitry Anoshin</h2>
                   <ul class="founder-ul">
@@ -330,13 +283,6 @@
                     <li><img src="assets/images/shield-horz-white-1.svg" /></li>
                   </ul>
                 </div>
-              </div>
-              <div class="founder-text-block">
-                <p>I have always been involved in various user groups and meetups. During my time at Amazon, I managed one of the largest Tableau User Groups (ATUG), boasting over 2,500 active members. Simultaneously, I took over the BI team’s user group, which connected more than 150 analytics teams worldwide. This led to exceptionally effective knowledge sharing, problem resolution, and job searching within Amazon.</p>
-                <p>Upon joining Microsoft, I promptly initiated a new community there. Additionally, since 2018, I have been leading the largest data engineering community in Russia, with 18,000 active members. </p>
-                <p>I understand the power of community and advocate for this method of education and coaching.</p>
-                <p>At Surfalytics, I created a membership subscription that provides access to a Discord chat, monthly projects in Data Engineering and Business Intelligence, the opportunity to ask questions at any time, and continuous support throughout your journey, including career planning.</p>
-                <p>The primary goal of our community is to elevate each other on social media, assist in interview preparation, engage in mock interviews, tackle LeetCode tasks, review interviews, and share weekly progress.</p>  
               </div>
             </section>
 
@@ -401,7 +347,78 @@
             window.addEventListener('scroll', handleScroll);
           });
 
+
+          //DROPDOWN POPOVER
+          document.addEventListener("DOMContentLoaded", function() {
+          const popover = document.querySelector('.dropdown');
+          const popoverToggle = popover.querySelector('.popover-toggle');
+          const popoverContent = popover.querySelector('.popover-content');
+
+          let timeout;
+
+          popover.addEventListener('mouseenter', function() {
+            clearTimeout(timeout);
+            popoverContent.style.display = 'block';
+            popoverToggle.setAttribute('aria-expanded', 'true');
+            popoverContent.setAttribute('aria-hidden', 'false');
+          });
+
+          popover.addEventListener('mouseleave', function() {
+            timeout = setTimeout(function() {
+              popoverContent.style.display = 'none';
+              popoverToggle.setAttribute('aria-expanded', 'false');
+              popoverContent.setAttribute('aria-hidden', 'true');
+            }, 200); // Adjust the delay as needed
+          });
+
+          popoverContent.addEventListener('mouseenter', function() {
+            clearTimeout(timeout);
+          });
+
+          popoverContent.addEventListener('mouseleave', function() {
+            timeout = setTimeout(function() {
+              popoverContent.style.display = 'none';
+              popoverToggle.setAttribute('aria-expanded', 'false');
+              popoverContent.setAttribute('aria-hidden', 'true');
+            }, 200); // Adjust the delay as needed
+          });
+        });
+
+
+
+
+
+          //HERO ANIMATION
+         const professions = ["Data Engineer", "BI Developer", "Data Analyst", "Analytics Engineer"];
+          let currentIndex = 0;
+
+          function changeProfession() {
+            const changingProfession = document.getElementById("changingProfession");
+            
+            // Fade out the current profession
+            changingProfession.classList.add("fade-out");
+            
+            // Set a timeout to change the text and fade in the new profession
+            setTimeout(() => {
+              changingProfession.textContent = professions[currentIndex];
+              changingProfession.classList.remove("fade-out");
+              changingProfession.classList.add("fade-in");
+              
+              // Increment the index, reset to 0 if it reaches the end of the array
+              currentIndex = (currentIndex + 1) % professions.length;
+            }, 1200); // This timeout should match the duration of the fade-out transition
+            
+            // After the fade-in animation completes, remove the fade-in class
+            setTimeout(() => {
+              changingProfession.classList.remove("fade-in");
+            }, 2300); // This timeout should match the duration of the fade-in transition
+          }
+
+          setInterval(changeProfession, 3700);
+
         </script>
+
+        
 
       {%- include footer.html -%}
 
@@ -412,7 +429,7 @@
         <!-- Subscribe -->
         <div class="container two-col">
           <div class="subscribe">
-            <h4>Subscribe to our Substack and gain access to latest data career insights</h4>
+            <h4 class="orange-txt">Build a life you don't need a vacation from.</h4>
   
               <!-- Embedded Substack API -->
               <div id="custom-substack-embed"></div>
@@ -421,7 +438,7 @@
                   substackUrl: "blog.surfalytics.com",
                   placeholder: "example@gmail.com",
                   buttonText: "Subscribe",
-                  theme: "purple"
+                  theme: "purple",
                 };
               </script>
               <script src="https://substackapi.com/widget.js" async></script>
@@ -434,31 +451,31 @@
               <li>
                 <!-- Instagram -->
                 <a href="https://www.instagram.com/surfalytics/">
-                  <iconify-icon icon="fa:instagram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                  <iconify-icon icon="fa:instagram" style="color: #2B3673; font-size: 35px;"></iconify-icon>
                 </a>
               </li>
               <li>
                 <!-- Telegram -->
                 <a href="https://t.me/surfalytics">
-                  <iconify-icon icon="icon-park-outline:telegram" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                  <iconify-icon icon="icon-park-outline:telegram" style="color: #2B3673; font-size: 35px;"></iconify-icon>
                 </a>
               </li>
               <li>
                 <!-- Linkedin -->
                 <a href="https://www.linkedin.com/company/surfalytics/">
-                  <iconify-icon icon="ri:linkedin-fill" style="color: #eff0f4;" width="35"></iconify-icon>
+                  <iconify-icon icon="ri:linkedin-fill" style="color: #2B3673;" width="35"></iconify-icon>
                 </a>
               </li>
               <li>
                 <!-- Tiktok -->
                 <a href="https://www.tiktok.com/@surfalytics">
-                  <iconify-icon icon="ic:baseline-tiktok" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                  <iconify-icon icon="ic:baseline-tiktok" style="color: #2B3673; font-size: 35px;"></iconify-icon>
                 </a>
               </li>
               <li>
                 <!-- Github -->
                 <a href="https://github.com/surfalytics/surfalytics">
-                  <iconify-icon icon="mdi:github" style="color: #eff0f4; font-size: 35px;"></iconify-icon>
+                  <iconify-icon icon="mdi:github" style="color: #2B3673; font-size: 35px;"></iconify-icon>
                 </a>
               </li>
             </ul>
@@ -467,7 +484,7 @@
   
         </div>
          <!-- Copyright info -->
-        <p>Copyright 2024 by Dmitry Anoshin. Designed and developed by <a class="link" href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
+        <p>Copyright 2024 by Dmitry Anoshin. Designed and developed by <a href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
       </footer>
     </body>
 </html>
