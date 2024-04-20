@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+
+      <!-- data from head.html -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="{{site.description}}">
+
+      <meta charset="utf-8">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
+
+      <meta name="HandheldFriendly" content="true"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+      <link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
+      <!-- End data from head.html -->
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="/assets/gitbook/homepage.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="path-to-iconify-font.css">
+
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT018TBY84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-FT018TBY84');
+    </script>
+    <!-- End Google Analytics -->
+    </head>
+
+    <body>
+
+       {%- include header.html -%}
+
+        <main class="article">
+
+          <div class="article-wrap">
+
+            <div class="article-container">
+
+              {{ content }}
+  
+            </div>
+  
+            <div class="sticky-nav">
+
+              <h4>Navigation</h4>
+              <ul>
+
+                <a href="#section-1">
+                  <li>About the role</li>
+                </a>
+
+                <a href="#section-2">
+                  <li>Who is this role for</li>
+                </a>
+
+                <a href="#section-3">
+                  <li>Data analytics tools</li>
+                </a>
+
+                <a href="#section-4">
+                  <li>Career roadmap</li>
+                </a>
+
+                <a href="#section-5">
+                  <li>Salaries and compensation</li>
+                </a>
+
+                <a href="#section-6">
+                  <li>How course and community helps</li>
+                </a>
+                
+              </ul>
+
+            </div>
+
+          </div>
+
+
+        </main>
+
+        <script>
+
+          var gitbook = gitbook || [];
+          gitbook.push(function() {
+              gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+          });
+
+        </script>
+
+        <!-- JavaScript -->
+        <script>
+
+          // Menu modal
+          function toggleMenu() {
+              var menuModal = document.getElementById('menuModal');
+              menuModal.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
+              var nav = document.getElementById('nav')
+              nav.style.display = (menuModal.style.display === 'none' || menuModal.style.display === '') ? 'flex' : 'none';
+          }
+
+          // SCROLLING NAVIGATION
+            document.addEventListener('DOMContentLoaded', function() {
+            var scrollingEl = document.querySelector('.scrolling-el');
+
+            // Function to handle scroll event
+            function handleScroll() {
+              // Change the padding based on the scroll position
+              var scrollPosition = window.scrollY;
+              scrollingEl.style.paddingTop = (scrollPosition >= 55) ? '20px' : (90 - scrollPosition / 2) + 'px';
+            }
+            window.addEventListener('scroll', handleScroll);
+          });
+
+
+          //DROPDOWN POPOVER
+          document.addEventListener("DOMContentLoaded", function() {
+          const popover = document.querySelector('.dropdown');
+          const popoverToggle = popover.querySelector('.popover-toggle');
+          const popoverContent = popover.querySelector('.popover-content');
+
+          let timeout;
+
+          popover.addEventListener('mouseenter', function() {
+            clearTimeout(timeout);
+            popoverContent.style.display = 'block';
+            popoverToggle.setAttribute('aria-expanded', 'true');
+            popoverContent.setAttribute('aria-hidden', 'false');
+          });
+
+          popover.addEventListener('mouseleave', function() {
+            timeout = setTimeout(function() {
+              popoverContent.style.display = 'none';
+              popoverToggle.setAttribute('aria-expanded', 'false');
+              popoverContent.setAttribute('aria-hidden', 'true');
+            }, 200); // Adjust the delay as needed
+          });
+
+          popoverContent.addEventListener('mouseenter', function() {
+            clearTimeout(timeout);
+          });
+
+          popoverContent.addEventListener('mouseleave', function() {
+            timeout = setTimeout(function() {
+              popoverContent.style.display = 'none';
+              popoverToggle.setAttribute('aria-expanded', 'false');
+              popoverContent.setAttribute('aria-hidden', 'true');
+            }, 200); // Adjust the delay as needed
+          });
+        });
+
+
+        </script>
+
+      {%- include footer.html -%}
+
+      <!-- Footer -->
+
+      <footer>              
+        
+        <!-- Subscribe -->
+        <div class="container two-col">
+          <div class="subscribe">
+            <h4 class="orange-txt">Build a life you don't need a vacation from.</h4>
+  
+              <!-- Embedded Substack API -->
+              <div id="custom-substack-embed"></div>
+              <script>
+                window.CustomSubstackWidget = {
+                  substackUrl: "blog.surfalytics.com",
+                  placeholder: "example@gmail.com",
+                  buttonText: "Subscribe",
+                  theme: "purple",
+                };
+              </script>
+              <script src="https://substackapi.com/widget.js" async></script>
+            </div>
+  
+  
+          <!-- Socials -->
+          <div>
+            <ul class="socials">
+              <li>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/surfalytics/">
+                  <iconify-icon icon="fa:instagram" style="color: #2B3673; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Telegram -->
+                <a href="https://t.me/surfalytics">
+                  <iconify-icon icon="icon-park-outline:telegram" style="color: #2B3673; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/company/surfalytics/">
+                  <iconify-icon icon="ri:linkedin-fill" style="color: #2B3673;" width="35"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Tiktok -->
+                <a href="https://www.tiktok.com/@surfalytics">
+                  <iconify-icon icon="ic:baseline-tiktok" style="color: #2B3673; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+              <li>
+                <!-- Github -->
+                <a href="https://github.com/surfalytics/surfalytics">
+                  <iconify-icon icon="mdi:github" style="color: #2B3673; font-size: 35px;"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+            <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>    
+          </div>
+  
+        </div>
+         <!-- Copyright info -->
+        <p>Copyright 2024 by Dmitry Anoshin. Designed and developed by <a href="https://www.linkedin.com/in/lala-jafarova/">Lala Jafarova</a>.</p>
+      </footer>
+    </body>
+</html>
