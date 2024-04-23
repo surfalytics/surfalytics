@@ -115,7 +115,7 @@ header {
 
 .notification-bar {
     z-index: 99999;
-    background: rgba(38, 15, 140, 0.90);
+    background: rgb(54 21 202 / 90%);
     color: white;
     text-decoration: none;
     position: relative;
@@ -292,6 +292,11 @@ a {
     padding-top: 0;
 }
 
+.hero button {
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
 .hero .two-col {
     align-items: center;
     gap: 0px;
@@ -332,6 +337,7 @@ a {
 #profession {
     margin: 0;
 }
+  
 
 #changingProfession {
     transition: opacity 3s ease-in-out;
@@ -463,16 +469,16 @@ button:disabled {
 }
 
 .cta-filled{
-    border: 1px solid #EE9672;
-    background: linear-gradient(90deg, rgba(255,116,57,0.85) 48%, rgba(255,116,57,0.95) 100%);
-    transition: 0.3s ease-in-out;
+    border: 1px solid #2b3673;
+    background: linear-gradient(45deg, rgb(49 69 176) 48%, rgb(37 7 186) 100%);
+    /* transition: 0.3s; */
 }
 
 .secondary {
     border-radius: 10px;
-    border: solid 1px #efd896;
-    background: #F6E5A7;
-    color: #2B3673;
+    border: solid 1px #2b3673;
+    background: #2b3673;
+    color: #fff;
 }
 
 nav .cta-filled,
@@ -484,8 +490,8 @@ nav .cta-filled,
 
 .cta-filled:hover {
     color: whitesmoke;
-    border: solid 1px #635B96;
-    background: #635B96;
+    border: solid 1px #2B3673;
+    background: #1b2457;
 }
 
 
@@ -642,7 +648,7 @@ input {
     display: none;
     border-radius: 15px;
     border: 1px solid #4C4D58;
-    background: #FEEFC4;
+    background: #fafafa;
 }
 
 /* Career track page styles */
@@ -915,14 +921,14 @@ details {
     display: flex;
     border-radius: 15px;
     border: 1px solid #959AB9;
-    background: #FEEFC4;
+    background: #fafafa;
 }
 
 .tab {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #4C4D58;
+    border-right: 1px solid #959AB9;
     width: 600px;
     margin: 0 0 0 2px;
     gap: 1px;
@@ -932,7 +938,7 @@ details {
     color: #2B3673;
     border: none;
     border-bottom: 1px solid #B1B5D0;
-    background: #FEEFC4;
+    background: #fff;
     float: left;
     outline: none;
     cursor: pointer;
@@ -954,13 +960,13 @@ details {
 .tab button.active {
     color: #2B3673;
     border-bottom: 1px solid #B1B5D0;
-    background: #FFF9E7;
+    background: #fafafa;
 }
 
 .tab button:hover,
 .tab button.active:hover {
     border-bottom: 1px solid #B1B5D0;
-    background: radial-gradient(circle, rgba(251,229,220,1) 3%, rgba(255,249,231,1) 60%);
+    background: #f4f3f3;
 }
 
 
