@@ -6,14 +6,14 @@
 3. Business Intelligence with Tableau, Power BI, and Looker.
 </details>
 <details>
-<summary>Data Engineering</summary>
+<summary>Data Engineering - Gentle</summary>
 <br>
 4. ETL Developer with dbt (ELT), Pentaho DI (classic UI ETL), and dimensional modelling.<br>
 5. Cloud Computing fundamentals with AWS and Azure.<br>
 6. Cloud Data Warehouse with Redshift, Synapse, Snowflake, BigQuery, Clickhouse.
 </details>
 <details>
-<summary>Data Engineering - coding</summary>
+<summary>Data Engineering - Hardcore</summary>
 <br>
 7. Apache Spark and Databricks.<br>
 8. Hadoop on top of EMR, HDInsights with Hive.<br>
