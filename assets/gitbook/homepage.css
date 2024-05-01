@@ -303,9 +303,7 @@ a {
 }
 
 .hero img {
-    width: 40%;
-    border-radius: 23px;
-    box-shadow: 2px 2px 10px 0px #CCCFEE, -2px -2px 40px 0px #CCCFEE;
+    width: 42%;
 }
 
 .h-subject{
@@ -352,7 +350,13 @@ a {
     width: max-content;
 }
 
+.photo {
+    padding-top: 6rem;
+}
 
+.photo img{
+    width: 100%;
+}
 
 /* Mobile burger menu */
 
