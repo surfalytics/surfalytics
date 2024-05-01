@@ -298,12 +298,12 @@ a {
 }
 
 .hero .two-col {
-    align-items: center;
+    /* align-items: center; */
     gap: 0px;
 }
 
 .hero img {
-    width: 42%;
+    display: none;
 }
 
 .h-subject{
@@ -688,6 +688,11 @@ input {
 
 /* Desktop styles */
 @media screen and (min-width: 769px) {
+
+.hero img {
+    display: block;
+     width: 42%;
+}
 
 /* Career track page styles */
 
