@@ -434,7 +434,7 @@ details {
 
 .navbar-links a {
     border-bottom: 1px solid rgba(255, 255, 255, 0);
-    line-height: 97%;
+    line-height: 24px;
     transition: border 0.3s ease;
 }
 
@@ -751,7 +751,7 @@ input {
 .sticky-nav li:hover{
     background-color: #E8E9EE;
     border-radius: 8px;
-    padding: 1em 1em 1em 0.5em;
+    padding: 1em 0.5em 1em 0.5em;
 }
 
 /* General desktop styles */

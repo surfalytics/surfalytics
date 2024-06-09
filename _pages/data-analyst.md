@@ -80,7 +80,7 @@ Data analysts in the United States generally earn higher salaries compared to th
 
 <a id="section-7"></a>
 
-## Community perks
+## How our community can help you
 
 - **Collaborative learning environment** - in Surfalytics we help each other understand complex concepts and solve challenging problems. Working together with peers often leads to deeper insights and more creative solutions.
 - **Emotional support** - Becoming a data analyst can be challenging, and having a supportive peer network can make a significant difference. Our members offer encouragement, share experiences, and provide camaraderie, helping alleviate stress and keep motivation high.
