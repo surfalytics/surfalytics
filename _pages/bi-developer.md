@@ -6,7 +6,7 @@ layout: career-track
 ---
 
 
-# BI Developer role
+# BI Developer
 
 <a id="section-1"></a>
 

@@ -6,7 +6,7 @@ layout: career-track
 ---
 
 
-# Data Engineer role
+# Data Engineer
 
 <a id="section-1"></a>
 

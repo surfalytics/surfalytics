@@ -6,66 +6,73 @@ layout: career-track
 ---
 
 
-# Analytics Engineer role
+# Analytics Engineer
 
 <a id="section-1"></a>
 
 ## About the role
 
-Data analyst collects, cleans, and interprets data sets in order to answer a question or solve a problem. They play a crucial role in helping organizations leverage data-driven insights to:
-
-- optimize processes 
-- improve decision-making 
-- and achieve their business objectives
-
-They work in many industries, including business, finance, criminal justice, science, medicine, and government.
-
-What kind of customers should a business target in its next ad campaign? What age group is most vulnerable to a particular disease? What patterns in behavior are connected to financial fraud?
-
-These are the types of questions you might be pressed to answer as a data analyst. Read on to find out more about what a data analyst is, what skills you'll need, and how you can start on a path to become one.
+Analytics Engineers bridge data engineering and data analysis, ensuring that raw data is transformed into actionable insights. They work closely with data scientists, analysts, and business stakeholders to understand data needs, build models, and create dashboards that inform strategic decisions.
 
 <a id="section-2"></a>
 
 ## Whom is this role for
 
-This role is perfect for individuals who:
-- have a passion for problem-solving 
-- a keen eye for detail
-- a love for numbers. 
+The Analytics Engineer role is ideal for individuals with unique technical and analytical skills. It's suited for those who have:
 
-If you enjoy uncovering patterns, drawing meaningful conclusions from data, and translating insights into actionable recommendations, then data analysis could be your calling. 
+- a passion for working with data
+- an eye for detail
+- the ability to communicate complex concepts in an accessible manner.
 
-While a background in mathematics, statistics, or computer science can be beneficial, this role is open to anyone with a curious mind and a willingness to learn.
+If you enjoy coding, problem-solving, and collaborating across departments to drive data-informed decision-making, this role could be an excellent fit for you.
 
 <a id="section-3"></a>
 
-## Data analytics tools
+## What does an analytics engineer do?
 
-During the process of data analysis, analysts often use a wide variety of tools to make their work more accurate and efficient. Some of the most common tools in the data analytics industry include:
+Daily duties might include:
 
-- Microsoft Excel
-- Google Sheets
-- SQL
-- Tableau
-- R or Python
-- SAS
-- Microsoft Power BI
-- Jupyter Notebooks
+- Collaborating with data scientists, data engineers and data analysts
+- Deploying logical and physical data models
+- Using business intelligence BI, data science, and visualization tools to build data products
+- Building automated and scalable data pipelines
+- Providing insight and recommendations to the data team and company stakeholders
+- Working independently across various projects and as part of a Scrum team
+- Using software development best practices like code review, continuous integration, and continuous delivery (CI/CD), release management, and version control
 
 <a id="section-4"></a>
 
 ## Career roadmap
 
-![Data Analyst career roadmap](/assets/presentation.jpeg "Data Analyst career roadmap")
+![Analytics engineer career roadmap](/assets/images/analytics-engineer-roadmap.png "Analytics engineer career roadmap")
 
 <a id="section-5"></a>
 
 ## Salaries and compensation
 
-Work in progress
+The estimated total pay for a Analytics Engineer is **$100,941** per year in the Canada area, with an average salary of **$94,595** per year. These numbers represent the median, which is the midpoint of the ranges from our proprietary Total Pay Estimate model and based on salaries collected from our users. The estimated additional pay is **$6,346** per year. Additional pay could include cash bonus, commission, tips, and profit sharing.
+
+The average salary for Analllytics Engineer is **US$188,312** per year in the United States. The average additional cash compensation for a Analytics Engineer in the United States is **US$56,621**, with a range from **US$42,466 - US$79,270**. Salaries estimates are based on 711 salaries submitted anonymously to Glassdoor by Analytics Engineer employees in United States.
+
+*Source [glassdoor.com](https://www.glassdoor.ca/Salaries/analytics-engineer-salary-SRCH_KO0,18.htm)*
 
 <a id="section-6"></a>
 
-## How course and community helps
+## How the course can help you
+Our comprehensive course is designed to equip you with the skills and knowledge required to excel as an Analytics Engineer. Key features include:
 
-Work in progress
+- **Curriculum coverage** - We offer a comprehensive curriculum covering databases, business intelligence, cloud computing fundamentals, cloud data warehouses, and many more. Proficiency in these tools is critical for data analysts, and coursework provides structured learning opportunities to master them.
+- **Demanded tools proficiency** - Learn from scratch SQL, Tableau, Power BI and Looker.
+- **Complex concepts explained in simple language** - Led by experienced lecturers, our course breaks down complex ideas into simple, easy-to-understand language, making data analytics accessible to everyone.
+
+<a id="section-7"></a>
+
+## How our community can help you
+Joining our community provides access to a network of peers and professionals who can support your career journey:
+
+- **Collaborative learning environment** - in Surfalytics we help each other understand complex concepts and solve challenging problems. Working together with peers often leads to deeper insights and more creative solutions.
+- **Emotional support** - Becoming a data analyst can be challenging, and having a supportive peer network can make a significant difference. Our members offer encouragement, share experiences, and provide camaraderie, helping alleviate stress and keep motivation high.
+- **Knowledge sharing** - Surfalytics community brings diverse backgrounds and perspectives to the table. By sharing knowledge and resources, you can learn about different tools, techniques, and best practices that you might not encounter in your coursework alone.
+- **Networking opportunities** - Members introduce each other to their professional networks, expanding the pool of potential job opportunities.
+- **Portfolio development** - by completing diverse projects, you will build a portfolio that showcases your skills to potential employers
+- **Career services** - share your resume for review and get comprehensive feedback from industry professionals. Participate in mock interview sessions and grow together with our community!

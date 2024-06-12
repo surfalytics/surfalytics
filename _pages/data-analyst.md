@@ -6,7 +6,7 @@ layout: career-track
 ---
 
 
-# Data Analyst role
+# Data Analyst
 
 <a id="section-1"></a>
 
