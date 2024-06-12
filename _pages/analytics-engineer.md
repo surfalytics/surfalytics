@@ -61,7 +61,7 @@ The average salary for Analllytics Engineer is **US$188,312** per year in the Un
 ## How the course can help you
 Our comprehensive course is designed to equip you with the skills and knowledge required to excel as an Analytics Engineer. Key features include:
 
-- **Curriculum coverage** - We offer a comprehensive curriculum covering databases, business intelligence, cloud computing fundamentals, cloud data warehouses, and many more. Proficiency in these tools is critical for data analysts, and coursework provides structured learning opportunities to master them.
+- **Curriculum coverage** - We offer a comprehensive curriculum covering databases, business intelligence, cloud computing fundamentals, cloud data warehouses, and many more. Proficiency in these tools is critical for analytics engineers, and coursework provides structured learning opportunities to master them.
 - **Demanded tools proficiency** - Learn from scratch SQL, Tableau, Power BI and Looker.
 - **Complex concepts explained in simple language** - Led by experienced lecturers, our course breaks down complex ideas into simple, easy-to-understand language, making data analytics accessible to everyone.
 
@@ -71,7 +71,7 @@ Our comprehensive course is designed to equip you with the skills and knowledge 
 Joining our community provides access to a network of peers and professionals who can support your career journey:
 
 - **Collaborative learning environment** - in Surfalytics we help each other understand complex concepts and solve challenging problems. Working together with peers often leads to deeper insights and more creative solutions.
-- **Emotional support** - Becoming a data analyst can be challenging, and having a supportive peer network can make a significant difference. Our members offer encouragement, share experiences, and provide camaraderie, helping alleviate stress and keep motivation high.
+- **Emotional support** - Becoming an analytics engineer can be challenging, and having a supportive peer network can make a significant difference. Our members offer encouragement, share experiences, and provide camaraderie, helping alleviate stress and keep motivation high.
 - **Knowledge sharing** - Surfalytics community brings diverse backgrounds and perspectives to the table. By sharing knowledge and resources, you can learn about different tools, techniques, and best practices that you might not encounter in your coursework alone.
 - **Networking opportunities** - Members introduce each other to their professional networks, expanding the pool of potential job opportunities.
 - **Portfolio development** - by completing diverse projects, you will build a portfolio that showcases your skills to potential employers
