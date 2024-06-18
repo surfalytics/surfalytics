@@ -26,7 +26,7 @@ These are the types of questions you might be pressed to answer as a data analys
 
 <a id="section-2"></a>
 
-## Whom is this role for
+## Who is this role for
 
 This role is perfect for individuals who:
 - have a passion for problem-solving 

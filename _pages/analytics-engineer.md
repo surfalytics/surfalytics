@@ -16,7 +16,7 @@ Analytics Engineers bridge data engineering and data analysis, ensuring that raw
 
 <a id="section-2"></a>
 
-## Whom is this role for
+## Who is this role for
 
 The Analytics Engineer role is ideal for individuals with unique technical and analytical skills. It's suited for those who have:
 
@@ -63,7 +63,7 @@ Our comprehensive course is designed to equip you with the skills and knowledge 
 
 - **Curriculum coverage** - We offer a comprehensive curriculum covering databases, business intelligence, cloud computing fundamentals, cloud data warehouses, and many more. Proficiency in these tools is critical for analytics engineers, and coursework provides structured learning opportunities to master them.
 - **Demanded tools proficiency** - Learn from scratch SQL, Tableau, Power BI and Looker.
-- **Complex concepts explained in simple language** - Led by experienced lecturers, our course breaks down complex ideas into simple, easy-to-understand language, making data analytics accessible to everyone.
+- **Complex concepts explained in simple language** - Led by experienced lecturers, our course breaks down complex ideas into simple, easy-to-understand language, making analytics engineering accessible to everyone.
 
 <a id="section-7"></a>
 
