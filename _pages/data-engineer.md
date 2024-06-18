@@ -12,30 +12,13 @@ layout: career-track
 
 ## About the role
 
-Data analyst collects, cleans, and interprets data sets in order to answer a question or solve a problem. They play a crucial role in helping organizations leverage data-driven insights to:
-
-- optimize processes 
-- improve decision-making 
-- and achieve their business objectives
-
-They work in many industries, including business, finance, criminal justice, science, medicine, and government.
-
-What kind of customers should a business target in its next ad campaign? What age group is most vulnerable to a particular disease? What patterns in behavior are connected to financial fraud?
-
-These are the types of questions you might be pressed to answer as a data analyst. Read on to find out more about what a data analyst is, what skills you'll need, and how you can start on a path to become one.
+Data Engineers focus on building and maintaining the infrastructure that enables data storage, processing, and retrieval. They work on the backend, dealing with databases, data warehouses, ETL processes, and ensuring data integrity and performance.
 
 <a id="section-2"></a>
 
-## Whom is this role for
+## Who is this role for
 
-This role is perfect for individuals who:
-- have a passion for problem-solving 
-- a keen eye for detail
-- a love for numbers. 
-
-If you enjoy uncovering patterns, drawing meaningful conclusions from data, and translating insights into actionable recommendations, then data analysis could be your calling. 
-
-While a background in mathematics, statistics, or computer science can be beneficial, this role is open to anyone with a curious mind and a willingness to learn.
+The Data Engineer role is ideal for individuals who enjoy building systems and solving complex problems. It's suited for those with a strong technical background, a keen interest in data architecture, and a passion for optimizing data workflows. If you thrive on designing efficient data systems, have a knack for programming, and possess strong analytical skills, this role could be an excellent fit for you.
 
 <a id="section-3"></a>
 
@@ -62,10 +45,29 @@ During the process of data analysis, analysts often use a wide variety of tools 
 
 ## Salaries and compensation
 
-Work in progress
+The average salary for Data Engineer is **$98,254** per year in the Canada. The average additional cash compensation for a Data Engineer in the Canada is **$8,056**, with a range from **$4,197 - $15,464**. Salaries estimates are based on 1578 salaries submitted anonymously to Glassdoor by Data Engineer employees in Canada. 
+
+*Source [glassdoor.com](https://www.glassdoor.com/Salaries/canada-data-engineer-salary-SRCH_IL.0,6_IN3_KO7,20.htm#:~:text=CA%2498K&text=The%20estimated%20total%20pay%20for,of%20CA%2489%2C848%20per%20year)*
 
 <a id="section-6"></a>
 
-## How course and community helps
+## How the course can help you
 
-Work in progress
+Our comprehensive course is designed to equip you with the skills and knowledge required to excel as a Data Engineer. Key features include:
+
+- **Curriculum coverage** - We offer a comprehensive curriculum covering databases, business intelligence, cloud computing fundamentals, cloud data warehouses, and many more. Proficiency in these tools is critical for analytics engineers, and coursework provides structured learning opportunities to master them.
+- **Demanded tools proficiency** - Learn ETL Development and dimensional modelling, cloud computing fundamentals, cloud data warehouse and many more. 
+- **Complex concepts explained in simple language** - Led by experienced lecturers, our course breaks down complex ideas into simple, easy-to-understand language, making data engineering accessible to everyone.
+
+<a id="section-7"></a>
+
+## How our community can help you
+
+Joining our community provides access to a network of peers and professionals who can support your career journey:
+
+- **Collaborative learning environment** - in Surfalytics we help each other understand complex concepts and solve challenging problems. Working together with peers often leads to deeper insights and more creative solutions.
+- **Emotional support** - Becoming an analytics engineer can be challenging, and having a supportive peer network can make a significant difference. Our members offer encouragement, share experiences, and provide camaraderie, helping alleviate stress and keep motivation high.
+- **Knowledge sharing** - Surfalytics community brings diverse backgrounds and perspectives to the table. By sharing knowledge and resources, you can learn about different tools, techniques, and best practices that you might not encounter in your coursework alone.
+- **Networking opportunities** - Members introduce each other to their professional networks, expanding the pool of potential job opportunities.
+- **Portfolio development** - by completing diverse projects, you will build a portfolio that showcases your skills to potential employers
+- **Career services** - share your resume for review and get comprehensive feedback from industry professionals. Participate in mock interview sessions and grow together with our community!
