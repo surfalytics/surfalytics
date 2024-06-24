@@ -1,7 +1,7 @@
 <details>
 <summary>What is the purpose of community?</summary>
 <br>
-Our community is dedicated to empowering data professionals by providing a platform for networking, sharing knowledge, and accessing exclusive resources. Whether you're a beginner or an expert, our community aims to support your growth in the field of data analytics and engineering.<br>
+Our community is dedicated to empowering data professionals by providing a platform for networking, sharing knowledge, and accessing exclusive resources. Whether you're a beginner or an expert, our community aims to support your growth in the field of data analytics and engineering.<br><br>
 </details>
 
 <details>
