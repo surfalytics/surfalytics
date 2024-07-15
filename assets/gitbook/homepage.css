@@ -857,7 +857,7 @@ input {
 
 .perks-card {
     flex-direction: row;
-    padding: 48px;
+    padding: 24px 48px;
     gap: 48px;
 }
 
