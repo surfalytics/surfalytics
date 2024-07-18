@@ -82,6 +82,8 @@ footer {
 .founder-card .two-col {
     display: flex;
     flex-direction: column-reverse;
+    gap: 36px;
+    align-items: center;
 }
 
 .founder-text-block {
@@ -374,7 +376,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 488px;
+    max-width: 470px;
 }
 
 .abt-right a {
@@ -835,7 +837,7 @@ input {
 }
 
 .abt-left h2 {
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 900;
 }
 
