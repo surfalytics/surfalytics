@@ -56,7 +56,7 @@
                     <h1 class="gradient">Engineer your career as</h1>
                   </div>
                   <div class="h-row">
-                    <h1 id="profession"><span id="changingProfession">Data Engineer</span></h1>
+                    <h1 id="profession"><span id="changingProfession">Data Analyst</span></h1>
                    </div>
                   <p>Join North America's top data community and achieve your dream career ✨</p>
                   <a href="#membership">
@@ -269,11 +269,11 @@
               
             <!-- About the founder -->
             <section class="founder-card">
-              <div class="two-col">
+              <div class="two-col card-color">
                 <img class="founder-photo" src="./assets/images/founder.png" alt="founder Dmitry Anoshin photo" />
-                <div class="founder-text-block card-color">
+                <div class="founder-text-block">
                   <h5>Meet the founder</h5>
-                  <h2>Dmitry Anoshin</h2>
+                  <h2 class="gradient">Dmitry Anoshin</h2>
                   <ul class="founder-ul">
                     <li>14 years in data analytics, 8 years in MAANG (Amazon, Microsoft)</li>
                     <li>Founder of Rock Your Data - data analytics consulting company</li>
@@ -311,23 +311,6 @@
 
         <!-- JavaScript -->
         <script>
-
-          // Tab section
-          // document.getElementById("defaultOpen").click();
-
-          // function openTab(evt, tabName) {
-          //   var i, tabcontent, tablinks;
-          //   tabcontent = document.getElementsByClassName("tabcontent");
-          //   for (i = 0; i < tabcontent.length; i++) {
-          //     tabcontent[i].style.display = "none";
-          //   }
-          //   tablinks = document.getElementsByClassName("tablinks");
-          //   for (i = 0; i < tablinks.length; i++) {
-          //     tablinks[i].className = tablinks[i].className.replace(" active", "");
-          //   }
-          //   document.getElementById(tabName).style.display = "block";
-          //   evt.currentTarget.className += " active";
-          // }
 
           // Menu modal
           function toggleMenu() {
@@ -392,7 +375,7 @@
 
 
           //HERO ANIMATION
-         const professions = ["Data Engineer", "BI Developer", "Data Analyst", "Analytics Engineer"];
+         const professions = ["Data Engineer", "BI Developer", "Analytics Engineer", "Data Analyst"];
           let currentIndex = 0;
 
           function changeProfession() {
@@ -409,7 +392,7 @@
               
               // Increment the index, reset to 0 if it reaches the end of the array
               currentIndex = (currentIndex + 1) % professions.length;
-            }, 1200); // This timeout should match the duration of the fade-out transition
+            }, 800); // This timeout should match the duration of the fade-out transition
             
             // After the fade-in animation completes, remove the fade-in class
             setTimeout(() => {
@@ -417,7 +400,7 @@
             }, 2300); // This timeout should match the duration of the fade-in transition
           }
 
-          setInterval(changeProfession, 3700);
+          setInterval(changeProfession, 1200);
 
         </script>
 
