@@ -23,7 +23,7 @@ Members enjoy a variety of benefits, including:<br>
 <details>
 <summary>Is there a membership fee?</summary>
 <br>
-Yes, there is a nominal $25 monthly fee to join the community. This fee helps cover the costs of maintaining our platform, organizing events, and providing members with quality content and resources.<br><br>
+Yes, there is a nominal $50 monthly fee to join the community. This fee helps cover the costs of maintaining our platform, organizing events, and providing members with quality content and resources.<br><br>
 </details>
 
 <details>
