@@ -278,9 +278,9 @@ a {
 }
 
 .popover-content {
-    display: none;
-    position: absolute;
-    top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     background-color: #EFEFEF;
     box-shadow: 0 2px 8px rgba(106, 102, 102, 0.165);
     padding: 8px 24px 8px 16px;
@@ -1005,11 +1005,6 @@ footer .container {
     
 }
 
-/* .founder-text-block {
-    padding: 3em ;
-
-} */
-
 .btn-block {
     display: flex;
     align-items: flex-start;
@@ -1125,6 +1120,24 @@ summary {
     font-weight: 400;
     line-height: normal;
 }
+
+/* Navigation - Desktop */
+
+.popover-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: #EFEFEF;
+    box-shadow: 0 2px 8px rgba(106, 102, 102, 0.165);
+    padding: 8px 24px 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .popover-content a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+  }
 
 /* Tab section - Surfalytics goal */
 
@@ -1307,6 +1320,12 @@ footer p {
 button {
     font-size: 1rem;
     /* margin-bottom: 1em; */
+}
+
+/* Instagram feed */
+.instagram-feed {
+    display: flex;
+    gap: 24px;
 }
 
 }
