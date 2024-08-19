@@ -58,6 +58,15 @@
                   <div class="h-row">
                     <h1 id="profession"><span id="changingProfession">Data Analyst</span></h1>
                    </div>
+                   <!-- testing different animation -->
+                  <!-- <div class="hero-heading-subject">
+                    <div class="hero-subject-container">
+                      <h1>Data Analyst</h1>
+                      <h1>Data Engineer</h1>
+                      <h1>BI Developer</h1>
+                      <h1>Analytics Engineer</h1>
+                    </div>
+                  </div> -->
                   <p>Join North America's top data community and achieve your dream career ✨</p>
                   <a href="https://buy.stripe.com/bIY7uecLm32v6KQ5kB" target="_blank">
                     <button class="cta-filled">Free 7-day trial, then $50 / month </button>
@@ -380,6 +389,8 @@
           //HERO ANIMATION
          const professions = ["Data Engineer", "BI Developer", "Analytics Engineer", "Data Analyst"];
           let currentIndex = 0;
+          let changeCount = 0;
+          const maxChanges = 5;
 
           function changeProfession() {
             const changingProfession = document.getElementById("changingProfession");
@@ -395,15 +406,20 @@
               
               // Increment the index, reset to 0 if it reaches the end of the array
               currentIndex = (currentIndex + 1) % professions.length;
+              changeCount++;
+
+              if (changeCount >= maxChanges) {
+                  clearInterval(intervalId);
+                }
             }, 800); // This timeout should match the duration of the fade-out transition
             
             // After the fade-in animation completes, remove the fade-in class
             setTimeout(() => {
               changingProfession.classList.remove("fade-in");
-            }, 2300); // This timeout should match the duration of the fade-in transition
+            }, 800); // This timeout should match the duration of the fade-in transition
           }
 
-          setInterval(changeProfession, 1200);
+          const intervalId = setInterval(changeProfession, 1200);
 
         </script>
 

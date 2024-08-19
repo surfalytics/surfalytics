@@ -223,7 +223,7 @@ a {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    gap: 40px;
+    gap: 16px;
     color: var(--palette-1-text-primary, #EFF0F4);
     font-size: 16px;
     font-style: normal;
@@ -281,10 +281,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    background-color: #EFEFEF;
-    box-shadow: 0 2px 8px rgba(106, 102, 102, 0.165);
-    padding: 8px 24px 8px 16px;
-    border-radius: 5px;
+    margin-top: 1rem;
   }
   
   .popover-content a {
@@ -303,6 +300,24 @@ a {
     align-items: center;
 }
 
+/* testing different animation */
+/* .hero-heading-subject {
+    flex-direction: column;
+    align-items: center;
+    height: 5.5rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-subject-container {
+    transform: translate3d(0px, -14.345rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d; 
+    z-index: 1;
+    margin-top: .3rem;
+    line-height: 1.2rem;
+    position: static;
+} */
 
 .hero img {
     display: none;
