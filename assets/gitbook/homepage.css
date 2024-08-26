@@ -458,6 +458,24 @@ a {
     border-bottom: 1px solid #2b36737c;
 }
 
+/* swag section */
+
+.swag-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 32px 16px;
+    align-items: center;
+    gap: 32px;
+}
+
+.swag-img {
+    width: 300px;
+    mix-blend-mode: multiply; 
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+
 /* Mobile burger menu */
 
 @media only screen and (max-width: 1200px) {
@@ -808,6 +826,7 @@ input {
 }
 
 
+
 /* Career track page styles */
 
 .article-wrap {
@@ -910,6 +929,31 @@ input {
 
 .col-left h2 {
     text-align: left;
+}
+
+/* swag section */
+
+.swag-section {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 48px;
+    align-items: center;
+    gap: 64px;
+}
+
+.swag-text h2 {
+    margin: 1em 0;
+}
+
+.swag-text a,
+.swag-text button {
+    width: 300px;
+    margin-top: 2em;
+}
+
+.swag-img {
+    width: unset;
+    max-width: 420px;
 }
 
 /* Career track page styles */
@@ -1334,7 +1378,6 @@ footer p {
 
 button {
     font-size: 1rem;
-    /* margin-bottom: 1em; */
 }
 
 /* Instagram feed */
