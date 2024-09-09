@@ -45,6 +45,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: 16px;
     align-self: stretch;
 }
@@ -73,7 +74,7 @@ main {
 
 .perks-card {
     display: flex;
-    padding: 24px 16px;
+    padding: 16px 8px;
     align-items: center;
     gap: 24px;
     align-self: stretch;
@@ -430,6 +431,100 @@ svg {
     height: 40px;
 }
 
+/* SALARIES OVERVIEW */
+
+.salaries {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.salary-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.salary-table {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
+    max-width: 800px;
+}
+
+.salary-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+    height: 320px;
+    align-self: stretch;
+}
+
+.salary-bar {
+    border-radius: 4px;
+    width: 48px;
+    background: var(--h-grad, linear-gradient(90deg, #2B3673 0%, #657BF3 100%));
+}
+
+
+.salary-row p {
+    margin: 0;
+}
+
+/* ROLE OVERVIEW */
+
+.role-overview {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.skills-wrap {
+    display: flex; 
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo-container {
+   width: 30px;
+   height: 30px; 
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.logo-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-label p {
+    margin: 0.5em;
+}
+
+.logo-list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
 /* Drop-down list */
 
 .drop-down {
@@ -775,7 +870,7 @@ input {
     min-width: 540px;
 }
 
-/* HOW DO WE GET THESE RESULTS */
+/* HOW DO WE GET THESE RESULTS - desktop */
 
 .roadmap-wrap {
     margin-top: 4em;
@@ -804,7 +899,7 @@ input {
 }
 
 .perks-card {
-    padding: 32px 24px;
+    padding: 16px 24px;
 }
 
 .perks-card svg {
@@ -822,6 +917,64 @@ input {
 
 .pricing-card button {
     margin: 0;
+}
+
+/* SALARIES OVERVIEW - desktop */
+
+.salaries {
+    padding: 48px;
+    gap: 48px;
+}
+
+.salary-info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.salary-table {
+    flex-direction: row;
+    align-items: center;
+    height: 428px;
+    gap: 40px;
+}
+
+.salary-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    height: 428px;
+}
+
+.salary-bar {
+    border-radius: 4px;
+    width: 80px;
+}
+
+/* ROLE OVERVIEW - desktop */
+
+.skills-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;  
+}
+
+.role-overview {
+    padding: 48px;
+}
+
+.course-link-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.course-link-wrap h5 {
+    text-decoration-line: underline;
 }
 
 /* DESKTOP - LAYOUTS */
@@ -885,7 +1038,7 @@ footer > .two-col {
 
 .number-card {
     flex-direction: column;
-    padding: 48px;
+    /* padding: 48px; */
     align-self: stretch;
     flex: 1 0 0;
 }
