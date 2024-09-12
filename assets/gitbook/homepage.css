@@ -184,11 +184,11 @@ nav {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 100px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
     background-color: #EFEFEF;
     align-items: center;
     align-self: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -220,20 +220,39 @@ a {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    padding: 20px;
+    align-items: center;
     border-radius: 5px;
     text-align: center;
-    gap: 16px;
+    gap: 8px;
     color: var(--palette-1-text-primary, #EFF0F4);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 80vw;
+}
+
+.menu-content .cta-filled {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.menu-content details {
+    padding: 0.8em 0 0.5em 0;
+}
+
+.modal-career-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    padding-left: 16px;
 }
 
 .close-modal {
     position: absolute;
-    top: 80px;
+    top: 32px;
     right: 30px;
     font-size: 2rem;
     cursor: pointer;
@@ -246,7 +265,7 @@ a {
 
 .service-card {
     padding: 32px 16px;
-    gap: 24px;
+    gap: 16px;
 }
 
 .card-header {
@@ -255,14 +274,6 @@ a {
     align-self: stretch;
     padding-bottom: 15px;
     border-bottom: dashed 1px #4C4D58;
-}
-
-.btn-block {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-self: stretch;
-    gap: 8px;
 }
 
 /* Navigation - Drop-downs */
@@ -299,25 +310,6 @@ a {
     flex-direction: column;
     align-items: center;
 }
-
-/* testing different animation */
-/* .hero-heading-subject {
-    flex-direction: column;
-    align-items: center;
-    height: 5.5rem;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-subject-container {
-    transform: translate3d(0px, -14.345rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d; 
-    z-index: 1;
-    margin-top: .3rem;
-    line-height: 1.2rem;
-    position: static;
-} */
 
 .hero img {
     display: none;
@@ -363,8 +355,8 @@ a {
 }
 
   
-.hero button {
-    width: max-content;
+.hero a {
+    width: 100%;
 }
 
 .photo img{
@@ -510,6 +502,7 @@ a {
 .founder-photo {
     width: 310px;
     height: 100%;
+    margin-bottom: 1.5em;
 }
 
 footer > .two-col {
@@ -570,7 +563,7 @@ details {
 button {
     color: var(--palette-1-text-primary, #EFF0F4);
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -872,6 +865,11 @@ input {
     font-size: 18px;
     border-radius: 10px;
     min-width: 360px;
+    max-width: max-content;
+}
+
+.hero a {
+    width: max-content;
 }
 
 .abt-section {
@@ -929,6 +927,10 @@ input {
 
 .col-left h2 {
     text-align: left;
+}
+
+.membership-ul {
+    margin: 0;
 }
 
 /* swag section */
@@ -1080,7 +1082,6 @@ footer .container {
 .col-left {
     display: flex;
     flex-direction: column;
-    gap: 15px;
     max-width: 540px;
 }
 
@@ -1109,6 +1110,10 @@ footer .container {
     border-bottom: dashed 1px #4C4D58;
 }
 
+.card-header p {
+    margin: 0 0 0.5em 0;
+}
+
 .card-description {
     height: 350px;
     margin: 0 0 1em 0;
@@ -1119,7 +1124,7 @@ footer .container {
 }
 
 .cards-block .card-header {
-    height: 200px;
+    height: 158px;
 }
 
 .mobile-banner {

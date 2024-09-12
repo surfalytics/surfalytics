@@ -46,8 +46,11 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 16px;
     align-self: stretch;
+}
+
+.numbers-wrap {
+    gap: 16px;
 }
 
 .number-card {
@@ -69,7 +72,7 @@ main {
     align-items: flex-start;
     gap: 16px;
     align-self: stretch;
-    margin-top: 2em;
+    margin-top: 0.5em;
 }
 
 .perks-card {
@@ -86,7 +89,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 16px;
     align-self: stretch; 
 }
 
@@ -101,10 +104,9 @@ main {
 }
 
 
-
 .pricing-content {
     display: flex;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     flex-direction: column;
     align-items: center;
     gap: 8px;
@@ -118,7 +120,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     align-self: stretch;
 }
 
@@ -223,11 +224,11 @@ nav {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 100px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
     background-color: #EFEFEF;
     align-items: center;
     align-self: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -259,20 +260,39 @@ a {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    padding: 20px;
+    align-items: center;
     border-radius: 5px;
     text-align: center;
-    gap: 40px;
+    gap: 8px;
     color: var(--palette-1-text-primary, #EFF0F4);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 80vw;
+}
+
+.menu-content .cta-filled {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.menu-content details {
+    padding: 0.8em 0 0.5em 0;
+}
+
+.modal-career-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    padding-left: 16px;
 }
 
 .close-modal {
     position: absolute;
-    top: 80px;
+    top: 32px;
     right: 30px;
     font-size: 2rem;
     cursor: pointer;
@@ -369,6 +389,10 @@ footer > .two-col {
     width: 100%;
 }
 
+.hero li {
+    font-size: 18px;
+}
+
 /* INFO */
 
 .info {
@@ -424,6 +448,10 @@ footer > .two-col {
     align-items: flex-start;
     gap: 8px;
     flex: 1 0 0;
+}
+
+.step-content p {
+    margin: 0;
 }
 
 svg {
@@ -506,6 +534,7 @@ svg {
 
 .logo-container img {
     width: 100%;
+    height: 110%;
 }
 
 .logo-label {
@@ -579,7 +608,7 @@ details {
 button {
     color: var(--palette-1-text-primary, #EFF0F4);
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -679,7 +708,7 @@ h3 {
 
 /* h4 - mobile */
 h4 {
-    color: rgba(43, 54, 115, 0.60);
+    color: #2B3673;
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -855,6 +884,10 @@ input {
     width: max-content;
 }
 
+.hero li {
+    font-size: 24px;
+}
+
 /* INFO - desktop */
 
 .info {
@@ -885,7 +918,7 @@ input {
 }
 
 .step {
-    padding: 32px;
+    padding: 24px;
     flex-direction: column-reverse;
     gap: 24px;
     flex: 1 0 0;
@@ -913,6 +946,7 @@ input {
 
 .pricing-card {
     min-width: 420px;
+    gap: 40px;
 }
 
 .pricing-card button {
@@ -1047,6 +1081,14 @@ footer > .two-col {
     max-width: unset;
     text-align: center;
     margin: 0;
+}
+
+.btn-block {
+    gap: 16px;
+}
+
+.pricing-content {
+    padding-bottom: 32px;
 }
 
 /* DESKTOP - DROP-DOWN */
