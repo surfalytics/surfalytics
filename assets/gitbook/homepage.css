@@ -184,11 +184,11 @@ nav {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 100px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
     background-color: #EFEFEF;
     align-items: center;
     align-self: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -220,20 +220,39 @@ a {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    padding: 20px;
+    align-items: center;
     border-radius: 5px;
     text-align: center;
-    gap: 40px;
+    gap: 8px;
     color: var(--palette-1-text-primary, #EFF0F4);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 80vw;
+}
+
+.menu-content .cta-filled {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.menu-content details {
+    padding: 0.8em 0 0.5em 0;
+}
+
+.modal-career-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    padding-left: 16px;
 }
 
 .close-modal {
     position: absolute;
-    top: 80px;
+    top: 32px;
     right: 30px;
     font-size: 2rem;
     cursor: pointer;
@@ -246,7 +265,7 @@ a {
 
 .service-card {
     padding: 32px 16px;
-    gap: 24px;
+    gap: 16px;
 }
 
 .card-header {
@@ -255,14 +274,6 @@ a {
     align-self: stretch;
     padding-bottom: 15px;
     border-bottom: dashed 1px #4C4D58;
-}
-
-.btn-block {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-self: stretch;
-    gap: 8px;
 }
 
 /* Navigation - Drop-downs */
@@ -278,13 +289,10 @@ a {
 }
 
 .popover-content {
-    display: none;
-    position: absolute;
-    top: 30px;
-    background-color: #EFEFEF;
-    box-shadow: 0 2px 8px rgba(106, 102, 102, 0.165);
-    padding: 8px 24px 8px 16px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 1rem;
   }
   
   .popover-content a {
@@ -302,7 +310,6 @@ a {
     flex-direction: column;
     align-items: center;
 }
-
 
 .hero img {
     display: none;
@@ -348,8 +355,8 @@ a {
 }
 
   
-.hero button {
-    width: max-content;
+.hero a {
+    width: 100%;
 }
 
 .photo img{
@@ -443,6 +450,24 @@ a {
     border-bottom: 1px solid #2b36737c;
 }
 
+/* swag section */
+
+.swag-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 32px 16px;
+    align-items: center;
+    gap: 32px;
+}
+
+.swag-img {
+    width: 300px;
+    mix-blend-mode: multiply; 
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+
 /* Mobile burger menu */
 
 @media only screen and (max-width: 1200px) {
@@ -477,6 +502,7 @@ a {
 .founder-photo {
     width: 310px;
     height: 100%;
+    margin-bottom: 1.5em;
 }
 
 footer > .two-col {
@@ -537,7 +563,7 @@ details {
 button {
     color: var(--palette-1-text-primary, #EFF0F4);
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -793,6 +819,7 @@ input {
 }
 
 
+
 /* Career track page styles */
 
 .article-wrap {
@@ -838,6 +865,11 @@ input {
     font-size: 18px;
     border-radius: 10px;
     min-width: 360px;
+    max-width: max-content;
+}
+
+.hero a {
+    width: max-content;
 }
 
 .abt-section {
@@ -895,6 +927,35 @@ input {
 
 .col-left h2 {
     text-align: left;
+}
+
+.membership-ul {
+    margin: 0;
+}
+
+/* swag section */
+
+.swag-section {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 48px;
+    align-items: center;
+    gap: 64px;
+}
+
+.swag-text h2 {
+    margin: 1em 0;
+}
+
+.swag-text a,
+.swag-text button {
+    width: 300px;
+    margin-top: 2em;
+}
+
+.swag-img {
+    width: unset;
+    max-width: 420px;
 }
 
 /* Career track page styles */
@@ -1005,11 +1066,6 @@ footer .container {
     
 }
 
-/* .founder-text-block {
-    padding: 3em ;
-
-} */
-
 .btn-block {
     display: flex;
     align-items: flex-start;
@@ -1026,7 +1082,6 @@ footer .container {
 .col-left {
     display: flex;
     flex-direction: column;
-    gap: 15px;
     max-width: 540px;
 }
 
@@ -1055,6 +1110,10 @@ footer .container {
     border-bottom: dashed 1px #4C4D58;
 }
 
+.card-header p {
+    margin: 0 0 0.5em 0;
+}
+
 .card-description {
     height: 350px;
     margin: 0 0 1em 0;
@@ -1065,7 +1124,7 @@ footer .container {
 }
 
 .cards-block .card-header {
-    height: 200px;
+    height: 158px;
 }
 
 .mobile-banner {
@@ -1125,6 +1184,24 @@ summary {
     font-weight: 400;
     line-height: normal;
 }
+
+/* Navigation - Desktop */
+
+.popover-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: #EFEFEF;
+    box-shadow: 0 2px 8px rgba(106, 102, 102, 0.165);
+    padding: 8px 24px 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .popover-content a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+  }
 
 /* Tab section - Surfalytics goal */
 
@@ -1306,7 +1383,12 @@ footer p {
 
 button {
     font-size: 1rem;
-    /* margin-bottom: 1em; */
+}
+
+/* Instagram feed */
+.instagram-feed {
+    display: flex;
+    gap: 24px;
 }
 
 }
