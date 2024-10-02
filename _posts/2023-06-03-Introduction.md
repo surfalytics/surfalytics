@@ -1,7 +1,7 @@
 ---
 title: Introduction
 author: Dmitry Anoshin 
-date: 2023-06-04
+date: 2023-09-12
 category: surfalytics
 layout: post
 cover: \assets\surf2.svg
@@ -44,12 +44,19 @@ This module will set you up for success in your data career 🚀. You will learn
 
 **Module 1: The Role of Analytics and Data Engineering in the Organization**
 
-![In Process](https://img.shields.io/badge/-in%20process-yellow)
+![Ready](https://img.shields.io/badge/-ready-green)
 
 Let's get acquainted with the subject of study. We'll find out who the Data Engineer is, what other tech roles exist, what they do, and their other titles. Most importantly, we'll understand how they help businesses be more efficient and make money. We'll examine the typical architectures of analytical solutions.
 
+[Go to Moodule 1](https://surfalytics.com/surfalytics/2023-06-04-Module01.html)
+
 **Module 2: Databases and SQL**
+
+![In Process](https://img.shields.io/badge/-in%20process-yellow)
+
 We will look at a solution for local analytics. We'll familiarize ourselves with databases and understand their advantages for working with data compared to Excel/Google Sheets. We'll practice SQL, set up a database, and upload data to it. Then we'll use Excel/Google Sheets for data visualization.
+
+[Go to Moodule 2](https://surfalytics.com/surfalytics/2023-06-04-Module02.html)
 
 **Module 3: Data Visualization, Dashboards, and Reporting - Business Intelligence (BI)**
 We'll get acquainted with BI tools and learn how to use Tableau, Looker, and Power BI. We'll delve into the client and server aspects. We'll discuss the tasks and theory of data visualization and real examples of BI solution implementations. We'll also get to know the methodology for creating metrics - Pirate Metrics.
@@ -80,3 +87,21 @@ Data Engineering and Machine Learning are interlinked in many modern analytical 
 
 **Module 12: Best Practices of a Data Engineer**
 A comprehensive guide to becoming an exemplary data engineer, this module touches upon both the technical and non-technical aspects of the role. From employing DevOps, CI/CD, and Infrastructure as Code (IaC) in data operations to developing soft skills for effective communication and teamwork, this module rounds off with a discussion on potential career trajectories and growth opportunities in the field of data engineering.
+
+**Interviews and Q&A sections**
+
+Surfalytics goes beyond just providing the course. It fosters a community-driven approach, where members actively contribute to each other's success. Here's how:
+
+* **Behavioral and Technical Mock Interviews**: Members leverage the platform to conduct realistic mock interviews, simulating the pressure and challenges of real interview scenarios. This helps refine communication skills, build confidence, and receive constructive feedback from experienced peers.
+
+YouTube playlist: [Mock interviews](https://www.youtube.com/playlist?list=PLNCDg7zJiXhPD0ethFHC-1V1pkvWhc633)
+
+* **Q&A Forums**: Dmitry Anoshin engage knowledge sharing through Q&A practice. He answers questions and share insights on various interview topics and professional tasks, creating a supportive and collaborative learning environment.
+
+YouTube playlist: [Questions from subscribers](https://www.youtube.com/playlist?list=PLNCDg7zJiXhPWhzAnmIbb1Vvd_BfnXdzd)
+
+* **Real Interview Records**: Some members even go the extra mile by sharing their actual interview experiences, including recordings, transcripts, and detailed feedback. This invaluable resource offers a behind-the-scenes look at the interview process, allowing others to learn from real-world examples and gain a deeper understanding of what to expect.
+
+YouTube playlist: [Real interview records](https://www.youtube.com/playlist?list=PLNCDg7zJiXhM5Gshe5_Q2HAZM5vIOLpI1)
+
+By combining data-driven insights with a vibrant community, Surfalytics empowers candidates to take control of their career. It fosters a culture of collaboration and continuous improvement, ensuring members are well-equipped to navigate the complexities of the interview process and achieve their goals. 
