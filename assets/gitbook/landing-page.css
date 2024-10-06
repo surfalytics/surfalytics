@@ -513,6 +513,9 @@ svg {
     margin: 0;
 }
 
+.card-padding {
+    padding: 24px 16px;
+}
 /* ROLE OVERVIEW */
 
 .role-overview {
@@ -889,7 +892,7 @@ input {
 }
 
 .hero li {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* INFO - desktop */
@@ -1003,6 +1006,10 @@ input {
 }
 
 .role-overview {
+    padding: 48px;
+}
+
+.card-padding {
     padding: 48px;
 }
 
