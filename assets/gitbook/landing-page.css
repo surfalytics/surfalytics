@@ -552,13 +552,19 @@ svg {
 
 .logo-label p {
     margin: 0.5em;
+    width: max-content;
 }
 
 .logo-list {
     display: flex;
-    align-items: center;
-    gap: 48px;
+    align-items: flex-start;
+    gap: 40px;
     align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.skills-col h5 {
+    margin: 1em 0;
 }
 
 /* Drop-down list */
@@ -1002,7 +1008,15 @@ input {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    align-self: stretch;  
+    gap: 80px;
+}
+
+.skills-wrap-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
 }
 
 .role-overview {
@@ -1011,6 +1025,10 @@ input {
 
 .card-padding {
     padding: 48px;
+}
+
+.skills-col h5 {
+    margin: 0.5em 0;
 }
 
 .course-link-wrap {
