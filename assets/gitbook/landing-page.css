@@ -508,6 +508,9 @@ svg {
     background: var(--h-grad, linear-gradient(90deg, #2B3673 0%, #657BF3 100%));
 }
 
+.salary-insights {
+    width: 100%;
+}
 
 .salary-row p {
     margin: 0;
@@ -552,7 +555,6 @@ svg {
 
 .logo-label p {
     margin: 0.5em;
-    width: max-content;
 }
 
 .logo-list {
@@ -1001,6 +1003,10 @@ input {
     width: 80px;
 }
 
+.salary-insights {
+    width: 50%;
+}
+
 /* ROLE OVERVIEW - desktop */
 
 .skills-wrap {
@@ -1039,6 +1045,10 @@ input {
 
 .course-link-wrap h5 {
     text-decoration-line: underline;
+}
+
+.logo-label p {
+    width: max-content;
 }
 
 /* DESKTOP - LAYOUTS */
