@@ -938,6 +938,14 @@ input {
     margin: 0;
 }
 
+.feedback-card-quote {
+    height: 51px;
+}
+
+.feedback-card-text {
+    height: 204px;
+}
+
 /* swag section */
 
 .swag-section {

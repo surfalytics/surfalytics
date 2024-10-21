@@ -1159,7 +1159,6 @@ footer > .two-col {
 
 .number-card {
     flex-direction: column;
-    /* padding: 48px; */
     align-self: stretch;
     flex: 1 0 0;
 }

@@ -1,8 +1,8 @@
-<i>"Surfalytics SQL course helped refine my skills”</i>
+<p class="feedback-card-quote"><i>"Surfalytics SQL course helped refine my skills”</i></p>
 
 <h4>Anton 🇵🇱</h4>
 
-<p>
+<p class="feedback-card-text">
 In June 2020, I discovered Surfalytics, and it became a game-changer for me. Early on, I realized the importance of data analytics, and some webinars were incredibly useful. After some time, I landed a job as a systems analyst in retail product development, earning an average starting salary.
 </p>
 
