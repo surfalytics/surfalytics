@@ -851,6 +851,11 @@ input {
     display: none;
 }
 
+.testimonials button {
+    margin: 1em auto;
+    padding: 12px 56px;
+    max-width: max-content;
+}
 
 /* Desktop styles */
 @media screen and (min-width: 769px) {

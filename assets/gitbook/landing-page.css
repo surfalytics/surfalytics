@@ -335,6 +335,27 @@ a {
     padding: 8px 0;
   }
 
+/* UNLEASH YOUR POTENTIAL */
+
+.potential-card {
+    padding: 24px;
+}
+
+.potential-card h4,
+.perks-info h4 {
+    /* font-size: 36px; */
+    font-weight: 900;
+}
+
+.potential-wrap {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-top: 32px;
+    gap: 8px;
+
+}
 
 /* Mobile burger menu */
 
@@ -822,6 +843,12 @@ ul {
     margin: 2rem 0 0 0;
 }
 
+.testimonials button {
+    margin: 1em auto;
+    padding: 12px 56px;
+    max-width: max-content;
+}
+
 /* Input */
 
 input {
@@ -916,6 +943,22 @@ input {
 
 .info h1 {
     min-width: 540px;
+}
+
+.potential-wrap {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.potential-card {
+    padding: 32px 40px;
+    max-width: max-content;
+}
+
+.potential-card h4,
+.perks-info h4 {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 /* HOW DO WE GET THESE RESULTS - desktop */
@@ -1056,6 +1099,10 @@ input {
 section {
     padding-top: 150px;
     max-width: 1200px;
+}
+
+.testimonials {
+    padding-top: 60px;
 }
 
 .desktop-banner {
