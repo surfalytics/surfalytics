@@ -849,6 +849,10 @@ ul {
     max-width: max-content;
 }
 
+.margin-m {
+    margin-bottom: 1em;
+}
+
 /* Input */
 
 input {
