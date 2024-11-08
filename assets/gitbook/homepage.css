@@ -467,6 +467,9 @@ a {
     border-radius: 20px;
 }
 
+.margin-m {
+    margin-bottom: 1em;
+}
 
 /* Mobile burger menu */
 
@@ -851,6 +854,11 @@ input {
     display: none;
 }
 
+.testimonials button {
+    margin: 1em auto;
+    padding: 12px 56px;
+    max-width: max-content;
+}
 
 /* Desktop styles */
 @media screen and (min-width: 769px) {
@@ -931,6 +939,14 @@ input {
 
 .membership-ul {
     margin: 0;
+}
+
+.feedback-card-quote {
+    height: 51px;
+}
+
+.feedback-card-text {
+    height: 204px;
 }
 
 /* swag section */

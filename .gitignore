@@ -5,3 +5,4 @@ _draft/
 .vscode/
 .gitignore/
 .gitignore
+.DS_Store

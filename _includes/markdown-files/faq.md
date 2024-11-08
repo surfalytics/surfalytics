@@ -27,6 +27,12 @@ Yes, there is a nominal $50 monthly fee to join the community. This fee helps co
 </details>
 
 <details>
+<summary>Can I get an invoice for my purchase?</summary>
+<br>
+Yes, we can provide an invoice upon request. Please contact our support team support@surfalytics.com with your order details, and we’ll generate and send the invoice to you.<br><br>
+</details>
+
+<details>
 <summary>How can I become a member?</summary>
 <br>
 To join our community, please complete the membership purchase process. After your purchase is confirmed, we will send you an email with further instructions, including how to access our exclusive Discord channel.<br><br>
