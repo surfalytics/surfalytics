@@ -1,7 +1,7 @@
 ---
 title: Introduction
 author: Dmitry Anoshin 
-date: 2023-09-12
+date: 2023-06-03
 category: surfalytics
 layout: post
 cover: \assets\surf2.svg
