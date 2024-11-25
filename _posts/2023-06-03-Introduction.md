@@ -40,7 +40,7 @@ The course consists of 13 modules:
 
 This module will set you up for success in your data career 🚀. You will learn about the proper setup of your workplace 🖥️ and the first steps to take before diving into analytics and data engineering 📊.
 
-[Go to Moodule 0](https://surfalytics.com/surfalytics/2023-06-04-Module00.html)
+[Go to Module 0](https://surfalytics.com/surfalytics/2023-06-04-Module00.html)
 
 **Module 1: The Role of Analytics and Data Engineering in the Organization**
 
@@ -48,7 +48,7 @@ This module will set you up for success in your data career 🚀. You will learn
 
 Let's get acquainted with the subject of study. We'll find out who the Data Engineer is, what other tech roles exist, what they do, and their other titles. Most importantly, we'll understand how they help businesses be more efficient and make money. We'll examine the typical architectures of analytical solutions.
 
-[Go to Moodule 1](https://surfalytics.com/surfalytics/2023-06-04-Module01.html)
+[Go to Module 1](https://surfalytics.com/surfalytics/2023-06-04-Module01.html)
 
 **Module 2: Databases and SQL**
 
@@ -56,7 +56,7 @@ Let's get acquainted with the subject of study. We'll find out who the Data Engi
 
 We will look at a solution for local analytics. We'll familiarize ourselves with databases and understand their advantages for working with data compared to Excel/Google Sheets. We'll practice SQL, set up a database, and upload data to it. Then we'll use Excel/Google Sheets for data visualization.
 
-[Go to Moodule 2](https://surfalytics.com/surfalytics/2023-06-04-Module02.html)
+[Go to Module 2](https://surfalytics.com/surfalytics/2023-06-04-Module02.html)
 
 **Module 3: Data Visualization, Dashboards, and Reporting - Business Intelligence (BI)**
 We'll get acquainted with BI tools and learn how to use Tableau, Looker, and Power BI. We'll delve into the client and server aspects. We'll discuss the tasks and theory of data visualization and real examples of BI solution implementations. We'll also get to know the methodology for creating metrics - Pirate Metrics.
