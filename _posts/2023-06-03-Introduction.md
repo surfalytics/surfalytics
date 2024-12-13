@@ -52,14 +52,19 @@ Let's get acquainted with the subject of study. We'll find out who the Data Engi
 
 **Module 2: Databases and SQL**
 
-![In Process](https://img.shields.io/badge/-in%20process-yellow)
+![Ready](https://img.shields.io/badge/-ready-green)
 
 We will look at a solution for local analytics. We'll familiarize ourselves with databases and understand their advantages for working with data compared to Excel/Google Sheets. We'll practice SQL, set up a database, and upload data to it. Then we'll use Excel/Google Sheets for data visualization.
 
 [Go to Module 2](https://surfalytics.com/surfalytics/2023-06-04-Module02.html)
 
 **Module 3: Data Visualization, Dashboards, and Reporting - Business Intelligence (BI)**
+
+![In Process](https://img.shields.io/badge/-in%20process-yellow)
+
 We'll get acquainted with BI tools and learn how to use Tableau, Looker, and Power BI. We'll delve into the client and server aspects. We'll discuss the tasks and theory of data visualization and real examples of BI solution implementations. We'll also get to know the methodology for creating metrics - Pirate Metrics.
+
+[Go to Moodule 3](https://surfalytics.com/surfalytics/2023-06-04-Module03.html)
 
 **Module 4: Data Integration and Creating Data Pipelines**
 As the number of data sources grows, it becomes challenging to manually upload and transform data. ETL solutions are used for these tasks. We will also discuss the difference between ETL and ELT. Furthermore, we'll explore the market solutions and practice with an Open Source solution, using which we'll be able to load data into Redshift and automate this process.
