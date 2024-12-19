@@ -32,7 +32,7 @@ body {
 }
 
 main {
-    padding: 5em 1em 1em 1em;
+    padding: 0 1em;
 }
 
 footer {
@@ -147,14 +147,9 @@ nav .container {
     width: 100vw;
 }
 
-.subscribe-banner {
-    width: 100vw;
-    text-align: center;
-}
-
 nav {
     z-index: 99998;
-    background: #EFEFEF;
+    background: #efefef80;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -259,10 +254,6 @@ a {
     color: #2B3673;
 }
 
-.desktop-banner {
-    display: none;
-}
-
 .service-card {
     padding: 32px 16px;
     gap: 16px;
@@ -309,6 +300,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100vw;
+}
+
+.hero-bg {
+    padding: 6em 1em;
+    background-image: url('/assets/images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero img {
@@ -802,7 +801,7 @@ input {
 .logo {
     display: block;
     align-self: center;
-    width: auto;
+    width: 80%;
     height: auto;
     padding: 0px;
     border: none;
@@ -878,6 +877,10 @@ input {
 
 .hero a {
     width: max-content;
+}
+
+.hero-bg {
+    padding: 10em 1em;
 }
 
 .abt-section {
@@ -1041,21 +1044,9 @@ section {
     max-width: 1200px;
 }
 
-.desktop-banner {
-    display: flex;
-}
-
-main {
-    padding-top: 9em;
-}
-
 nav .container,
 footer .container {
     width: 100vw;
-}
-
-.scrolling-el {
-    padding-top: 90px;
 }
 
 .course-promo {
@@ -1143,10 +1134,6 @@ footer .container {
     height: 158px;
 }
 
-.mobile-banner {
-    display: none;
-}
-
 .services-pricing {
     display: block;
 }
@@ -1219,88 +1206,11 @@ summary {
     padding: 8px 0;
   }
 
-/* Tab section - Surfalytics goal */
+/* logo in navigation */
 
-.tab-block-mobile {
-    display: none;
-}
-
-.tab-block {
-    display: flex;
-    border-radius: 15px;
-    border: 1px solid #959AB9;
-    background: #fafafa;
-}
-
-.tab {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    border-right: 1px solid #959AB9;
-    width: 600px;
-    margin: 0 0 0 2px;
-    gap: 1px;
-}
-
-.tablinks {
-    color: #2B3673;
-    border: none;
-    border-bottom: 1px solid #B1B5D0;
-    background: #fff;
-    float: left;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-    width: 600px;
-    height: 160px;
-    padding: 51px 50px;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    text-align: left;
-    gap: 30px;
-}
-
-.tab button.active {
-    color: #2B3673;
-    border-bottom: 1px solid #B1B5D0;
-    background: #fafafa;
-}
-
-.tab button:hover,
-.tab button.active:hover {
-    border-bottom: 1px solid #B1B5D0;
-    background: #f4f3f3;
-}
-
-
-.tabcontent {
-    display: none;
-    padding: 40px 50px;
-    max-width: 580px;
-    max-height: max-content;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-}
-
-
-li {
-    font-size: 18px;
-}
-
-.icon {
-    display: none;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-}
-
-.tab button:hover .icon,
-.tab button.active .icon{
-    display: block;
+.logo {
+    width: auto;
+    height: auto;
 }
 
 /* Fade in tabs */
@@ -1389,7 +1299,7 @@ p {
 
 .hero p {
     font-size: 1.3rem;
-    margin: 1.5em 0;
+    margin: 1.5em 0 5em 0;
 }
 
 footer p {
