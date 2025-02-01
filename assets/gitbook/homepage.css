@@ -533,6 +533,7 @@ summary {
 
 details {
     display: flex;
+    flex-direction: column;
     padding: 0.8em 1em 0.5em 0;
     justify-content: center;
     align-items: center;
@@ -542,6 +543,10 @@ details {
     font-size: 1rem;
     font-weight: 400;
     line-height: 150%;
+}
+
+.left-aligned details {
+    align-items: baseline;
 }
 
 /* Buttons and links */
@@ -1163,6 +1168,7 @@ footer > .two-col {
 
 details {
     display: flex;
+    flex-direction: column;
     padding: 0.8em 1em 0.5em 0;
     justify-content: center;
     align-items: center;
