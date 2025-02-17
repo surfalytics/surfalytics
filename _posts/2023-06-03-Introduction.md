@@ -19,13 +19,13 @@ Let's discuss the requirements and the course further:
 
 First and foremost, you need to determine the requirements for comfortable data work when taking the course. I can identify several key components:
 
-- Internet access 😀
-- Preferably a screen size of 15 inches or larger
-- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag. No worries, Module 0 will cover the laptops question.
-- Operating systems: Windows and Mac. Linux will also work. The best option is MacOS.
-- To access AWS/Azure/GCP, you might need to enter a credit card number during registration (not before the 4th module).
-- A GitHub account. It will be covered in the Module 0.
-- Ability to use Google and ChatGPT 😀
+- Internet access 😀 <br>
+- Preferably a screen size of 15 inches or larger. <br>
+- Ideally, 16 GB of RAM (minimum 8 GB), or else it will lag. No worries, Module 0 will cover the laptops question. <br>
+- Operating systems: Windows and Mac. Linux will also work. The best option is MacOS. <br>
+- To access AWS/Azure/GCP, you might need to enter a credit card number during registration (not before the 4th module). <br>
+- A GitHub account. It will be covered in the Module 0. <br>
+- Ability to use Google and ChatGPT 😀 <br>
 - Presence on social media to share about the course 😀
 
 **Getting Started with Analytics and Data Engineering** - this course is about my job as a data engineering and analytics individual contributor and my 14+ years of experience creating analytical solutions in Canada, the USA,  Russia, and Europe. If I were to hire a data engineer or BI engineer, I would want them to have the knowledge and competencies that we'll cover in the course. The course includes basics like Business Intelligence tools, databases, ETL tools, cloud computing, and much more.
