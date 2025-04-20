@@ -395,6 +395,7 @@ a {
 
 .potential-card {
     padding: 24px;
+    /* width: 33.3%; */
 }
 
 .potential-card h4,
@@ -406,6 +407,7 @@ a {
 .potential-wrap {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-self: stretch;
     justify-content: space-between;
     margin-top: 32px;
