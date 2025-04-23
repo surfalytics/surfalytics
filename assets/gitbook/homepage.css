@@ -411,7 +411,7 @@ a {
     align-self: stretch;
     justify-content: space-between;
     margin-top: 32px;
-    gap: 8px;
+    gap: 16px;
 
 }
 
@@ -1186,7 +1186,7 @@ details {
 
 details:hover {
     background: #ebecf0;
-    padding: 0.8em 0 0.5em 1em;
+    /* padding: 0.8em 0 0.5em 1em; */
 }
 
 summary {
