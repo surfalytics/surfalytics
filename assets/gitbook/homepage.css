@@ -267,6 +267,40 @@ a {
     border-bottom: dashed 1px #4C4D58;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 300px auto;
+    padding: 20px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+  
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
 /* Navigation - Drop-downs */
 
 .dropdown {
@@ -395,6 +429,7 @@ a {
 
 .potential-card {
     padding: 24px;
+    /* width: 33.3%; */
 }
 
 .potential-card h4,
@@ -406,10 +441,11 @@ a {
 .potential-wrap {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-self: stretch;
     justify-content: space-between;
     margin-top: 32px;
-    gap: 8px;
+    gap: 16px;
 
 }
 
@@ -1085,6 +1121,12 @@ footer .container {
     gap: 25px;
 }
 
+.btn-block a{
+    align-self: stretch; 
+    width: 100%; 
+    text-decoration: none;
+}
+
 .two-col {
     display: flex;
     flex-direction: row;
@@ -1164,6 +1206,44 @@ footer > .two-col {
     padding: 24px 32px;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 300px auto;
+    padding: 20px;
+    /* background: #fff;
+    border-radius: 20px; */
+    width: 45%;
+    /* height: 20%; */
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+  
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
 /* Desktop - drop down list */
 
 details {
@@ -1184,7 +1264,7 @@ details {
 
 details:hover {
     background: #ebecf0;
-    padding: 0.8em 0 0.5em 1em;
+    /* padding: 0.8em 0 0.5em 1em; */
 }
 
 summary {
