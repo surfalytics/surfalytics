@@ -60,6 +60,10 @@ jobs:
         run: |
           echo "=== Checking for symlinks in _site ==="
           find _site -type l -ls
+      - name: Check for hard links
+        run: |
+          echo "=== Checking for hard links in _site ==="
+          find _site -type f -links +1 -ls
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-artifact@v4
