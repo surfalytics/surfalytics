@@ -64,9 +64,9 @@ jobs:
         run: |
           echo "=== Checking for hard links in _site ==="
           find _site -type f -links +1 -ls
-      - name: Upload artifact
+      - name: Upload pages artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: _site
